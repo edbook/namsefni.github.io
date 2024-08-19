@@ -1,0 +1,1110 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="is" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2. Eiginleg heildi &mdash; STÆR3HE05 - Heildun </title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=66b59bf7" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/eqt.css?v=14aa8dc6" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/datacamp-custom.css?v=1b632803" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/edbook.css?v=13b926f9" />
+
+  
+    <link rel="shortcut icon" href="../_static/namsefni.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=8b0c2044"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/js/eqt.js?v=555177ae"></script>
+      <script src="../_static/translations.js?v=da5fa714"></script>
+      <script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
+      <script async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="../_static/js/theme.js"></script>
+
+<!-- hoverrole.py css code -->
+<style type="text/css">
+    a.tooltip {
+        outline: none;
+        border-bottom: thin dotted;
+        background: #ffeedd
+    }
+
+    a.tooltip strong {
+        line-height: 30px;
+    }
+
+    a.tooltip:hover {
+        text-decoration: none;
+    }
+
+    a.tooltip span {
+        z-index: 10;
+        display: none;
+        padding: 14px 20px;
+        margin-top: -30px;
+        margin-left: 12px;
+        width: 310px;
+        line-height: 16px;
+    }
+
+    a.tooltip:hover span {
+        display: inline;
+        position: absolute;
+        color: #111;
+        border: 1px solid #DCA;
+        background: #fffAF0;
+    }
+
+    .callout {
+        z-index: 20;
+        position: absolute;
+        top: 30px;
+        border: 0;
+        left: -12px;
+    }
+
+    /*CSS3*/
+    a.tooltip span {
+        border-radius: 4px;
+        box-shadow: 5px 5px 8px #CCC;
+    }
+</style>
+<!-- End hoverrole.py css code -->
+
+<style type="text/css">
+    .sagecell .CodeMirror-scroll {
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+
+    .sagecell .CodeMirror {
+        height: auto;
+    }
+
+    /* - Begin equation reference style - */
+    h6.eqno {
+        display: inline-block;
+        padding-left: 10px;
+    }
+
+    h6 .headerlink {
+        display: inline-block !important;
+    }
+
+    h6 .headerlink:after {
+        visibility: hidden !important;
+    }
+
+    h6 .headerlink:hover:after {
+        visibility: visible !important;
+    }
+
+    .eqno:hover>.headerlink:after {
+        visibility: visible !important;
+    }
+
+    table>caption>.headerlink {
+        visibility: hidden !important;
+    }
+
+    table>caption>.headerlink {
+        visibility: hidden !important;
+    }
+
+    /* - End - */
+</style>
+
+
+
+    <link rel="index" title="Atriðaskrá" href="../genindex/" />
+    <link rel="search" title="Leit" href="../search/" />
+    <link rel="next" title="Orðaskrá" href="../ordaskra/" />
+    <link rel="prev" title="1. Stofnföll og heildisreglur" href="../kafli01/" />
+
+
+
+<!--	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+<script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<script>ggbAppletId = [];</script>
+
+
+ 
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            STÆR3HE05 - Heildun
+              <img src="../_static/namsefni.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../kafli01/">1. Stofnföll og heildisreglur</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Eiginleg heildi</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#aefing-2">2.1. Æfing 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#svor-vi-aefingu">2.2. Svör við æfingu</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ordaskra/">Orðaskrá</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">STÆR3HE05 - Heildun</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><span class="section-number">2. </span>Eiginleg heildi</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/edbook/haskoli-islands/blob/master/projects/staer3he05/kafli02.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="eiginleg-heildi">
+<h1><span class="section-number">2. </span>Eiginleg heildi<a class="headerlink" href="#eiginleg-heildi" title="Link to this heading"></a></h1>
+<div class="skilgr docutils container">
+<p>Ef <span class="math notranslate nohighlight">\([a,b]\)</span> er lokað bil í <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> og
+<span class="math notranslate nohighlight">\(x_{0},x_{1},\ldots,x_{n}\)</span> eru rauntölur þannig að</p>
+<div class="math notranslate nohighlight">
+\[a = x_{0} &lt; x_{1} &lt; \cdots &lt; x_{n-1} &lt; x_{n} = b\]</div>
+<p>þá kallast mengið <span class="math notranslate nohighlight">\(S = \{x_{0},x_{1},\ldots,x_{n-1},x_{n}\}\)</span>
+<strong>skipting</strong> (eða bútun) á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span>.</p>
+<p>Bilin <span class="math notranslate nohighlight">\([x_{i-1},x_{i}]\)</span> fyrir <span class="math notranslate nohighlight">\(i \in \{1,\ldots,n\}\)</span>
+nefnast <strong>bútar</strong> skiptingarinnar og talan
+<span class="math notranslate nohighlight">\(\Delta x_{i} = x_{i}-x_{i-1}\)</span> nefnist <strong>lengd</strong> i-ta bútarins.</p>
+<p>Stærðin <span class="math notranslate nohighlight">\(||S|| = \max\{\Delta x_{1},\ldots,\Delta x_{n}\}\)</span>
+nefnist svo <strong>norm</strong> skiptingarinnar.</p>
+</div>
+<div class="ath docutils container">
+<p>Til upprifjunar þá er stærðin
+<span class="math notranslate nohighlight">\(\max\{\Delta x_{1},\ldots,\Delta x_{n}\}\)</span> stærsta talan sem
+kemur fyrir í menginu.</p>
+</div>
+<div class="syn docutils container">
+<p>skiptingu bils</p>
+<p>Gefið er mengið <span class="math notranslate nohighlight">\([0,1]\)</span> og skiptingin
+<span class="math notranslate nohighlight">\(S = \left\{0,\frac{1}{3},\frac{1}{2},\frac{5}{6},1\right\}\)</span>.
+Tilgreinið alla búta skiptingarinnar, finnið lengd þeirra og
+tilreinum að lokum hvert norm skiptingarinnar er.</p>
+<p><strong>Lausn:</strong> Bútar skiptingarinnar eru
+<span class="math notranslate nohighlight">\(\left[0,\frac{1}{3}\right]\)</span>,
+<span class="math notranslate nohighlight">\(\left[\frac{1}{3},\frac{1}{2}\right]\)</span>,
+<span class="math notranslate nohighlight">\(\left[\frac{1}{2},\frac{5}{6}\right]\)</span> og
+<span class="math notranslate nohighlight">\(\left[\frac{5}{6},1\right]\)</span> en lengdir þeirra eru</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\Delta x_{1} &amp;= x_{1}-x_{0} = \frac{1}{3} - 0 = \frac{1}{3}, \;\;\; \Delta x_{2} = x_{2}-x_{1} = \frac{1}{2} - \frac{1}{3} = \frac{1}{6}\\ \Delta x_{3} &amp;= x_{3}-x_{2} = \frac{5}{6} - \frac{1}{2} = \frac{1}{3} \; \text{ og } \; \Delta x_{4} = x_{4}-x_{3} = 1 - \frac{5}{6} = \frac{1}{6}
+\end{aligned}\end{split}\]</div>
+<p>Við sjáum því að norm skiptingarinnar er <span class="math notranslate nohighlight">\(||S|| = \frac{1}{3}\)</span>.</p>
+<figure class="align-default" id="id1">
+<a class="reference internal image-reference" href="../_images/k2m1.png"><img alt="../_images/k2m1.png" src="../_images/k2m1.png" style="width: 95.0%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Myndræn framsetning á skiptingunni :math:`S` á bilinu
+:math:`[0,1]`.</em></span><a class="headerlink" href="#id1" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+<div class="skilgr docutils container">
+<p>Ef <span class="math notranslate nohighlight">\(S\)</span> er skipting á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> og lengd allra búta
+<span class="math notranslate nohighlight">\(S\)</span> er <span class="math notranslate nohighlight">\(\dfrac{b-a}{n}\)</span> þar sem <span class="math notranslate nohighlight">\(n \in \mathbb{N}\)</span>
+þá segjum við að <span class="math notranslate nohighlight">\(S\)</span> sé <strong>jöfn skipting</strong> á bilinu
+<span class="math notranslate nohighlight">\([a,b]\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Ljóst er að jafna skiptingin í skilgreiningunni hér á undan hefur
+<span class="math notranslate nohighlight">\(n\)</span> búta og að hún er ótvírætt ákvörðuð fyrir sérhvert bil
+<span class="math notranslate nohighlight">\([a,b]\)</span>. Við munum hér eftir nota tákmálið <span class="math notranslate nohighlight">\(I_n\)</span> til þess
+að tákna þessa skiptingu.</p>
+</div>
+<div class="syn docutils container">
+<p>jafna skiptingu</p>
+<p>Skrifum upp jöfnu skiptinguna með <span class="math notranslate nohighlight">\(3\)</span> búta fyrir bilið
+<span class="math notranslate nohighlight">\([0,1]\)</span> og jöfnu skiptinguna með <span class="math notranslate nohighlight">\(5\)</span> búta fyrir bilið
+<span class="math notranslate nohighlight">\([0,2]\)</span>. Tilgreinum norm skiptinganna í hvoru tilfelli fyrir
+sig.</p>
+<p><strong>Lausn:</strong> Ef við skiptum <span class="math notranslate nohighlight">\([0,1]\)</span> í <span class="math notranslate nohighlight">\(3\)</span> búta með jafnri
+skiptingu þá er bútlengd hvers bútar
+<span class="math notranslate nohighlight">\(\frac{1-0}{3} = \frac{1}{3}\)</span>. Skiptingin er því
+<span class="math notranslate nohighlight">\(I_{3} = \left\{0,\frac{1}{3},\frac{2}{3},1\right\}\)</span>. Ef við
+skiptum svo bilinu <span class="math notranslate nohighlight">\([0,2]\)</span> upp í <span class="math notranslate nohighlight">\(5\)</span> búta með jafnri
+skiptingu þá er bútlengd hvers bútar
+<span class="math notranslate nohighlight">\(\frac{2-0}{5} = \frac{2}{5}\)</span>. Skiptingin er þar með
+<span class="math notranslate nohighlight">\(I_{5} = \left\{0,\frac{2}{5},\frac{4}{5},\frac{6}{5},\frac{8}{5},2\right\}\)</span>.</p>
+</div>
+<div class="skilgr docutils container">
+<p>Ef <span class="math notranslate nohighlight">\(S\)</span> og <span class="math notranslate nohighlight">\(T\)</span> eru tvær skiptingar á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span>
+og <span class="math notranslate nohighlight">\(S \subseteq T\)</span> þá er <span class="math notranslate nohighlight">\(S\)</span> sögð <strong>grófari</strong> en
+<span class="math notranslate nohighlight">\(T\)</span>. <span class="math notranslate nohighlight">\(T\)</span> er einnig sögð vera <strong>fínni</strong> en <span class="math notranslate nohighlight">\(S\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Skilgreiningin hér að ofan segir einfaldlega að ef við byjum með
+einhverja skiptingu <span class="math notranslate nohighlight">\(S\)</span> á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> og bætum svo
+fleiri skiptipunktum við hana þá fæst skipting sem er fínni en sú sem
+byrjað var með.</p>
+</div>
+<div class="skilgr docutils container">
+<p>Gefið er fall <span class="math notranslate nohighlight">\(f\)</span> á <span class="math notranslate nohighlight">\([a,b]\)</span> og skipting
+<span class="math notranslate nohighlight">\(S = \{x_{0},\ldots,x_{n}\}\)</span>.</p>
+<ul>
+<li><p>Ef til eru tölur <span class="math notranslate nohighlight">\(k_{1},\ldots,k_{n}\)</span> þannig að</p>
+<div class="math notranslate nohighlight">
+\[k_{i} \leq f(x) \; \text{ fyrir öll } \; x \in [x_{i-1},x_{i}]\]</div>
+<p>þá kallast summan</p>
+<div class="math notranslate nohighlight">
+\[U_{S} = \sum_{i = 1}^{n} k_{i}\Delta x_{i}\]</div>
+<p><strong>undirsumma</strong> fyrir fallið <span class="math notranslate nohighlight">\(f\)</span> á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> með
+tilliti til skiptingarinnar <span class="math notranslate nohighlight">\(S\)</span>.</p>
+</li>
+</ul>
+</div>
+<div class="bluebox docutils container">
+<ul>
+<li><p>Ef til eru tölur <span class="math notranslate nohighlight">\(K_{1},\ldots,K_{n}\)</span> þannig að</p>
+<div class="math notranslate nohighlight">
+\[f(x) \leq K_{i} \; \text{ fyrir öll } \; x \in [x_{i-1},x_{i}]\]</div>
+<p>þá kallast summan</p>
+<div class="math notranslate nohighlight">
+\[Y_{S} = \sum_{i = 1}^{n} K_{i}\Delta x_{i}\]</div>
+<p><strong>yfirsumma</strong> fyrir fallið <span class="math notranslate nohighlight">\(f\)</span> á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> með
+tilliti til skiptingarinnar <span class="math notranslate nohighlight">\(S\)</span>.</p>
+</li>
+<li><p>Ef við veljum tölur <span class="math notranslate nohighlight">\(t_{i} \in [x_{i-1},x_{i}]\)</span> fyrir öll
+<span class="math notranslate nohighlight">\(i \in \{1,\ldots,n\}\)</span> þá kallast summan</p>
+<div class="math notranslate nohighlight">
+\[\sigma_{S} = \sum_{i = 1}^{n} f\left(t_{i}\right)\Delta x_{i}\]</div>
+<p><strong>millisumma</strong> (eða Riemann summa) fyrir fallið <span class="math notranslate nohighlight">\(f\)</span> á bilinu
+<span class="math notranslate nohighlight">\([a,b]\)</span> með tilliti til skiptingarinnar <span class="math notranslate nohighlight">\(S\)</span>.</p>
+</li>
+</ul>
+</div>
+<div class="ath docutils container">
+<p>Út frá skilgreiningunni er ljóst að fyrir sérhverja skiptingu
+<span class="math notranslate nohighlight">\(S\)</span> á bili <span class="math notranslate nohighlight">\([a,b]\)</span> og fall <span class="math notranslate nohighlight">\(f\)</span> skilgreint á því
+bili gildir að</p>
+<div class="math notranslate nohighlight">
+\[U_{S} \leq \sigma_{S} \leq Y_{S}\]</div>
+</div>
+<div class="ath docutils container">
+<p>Í skilgreiningunni hér að ofan var nóg að velja <span class="math notranslate nohighlight">\(k_i\)</span> sem
+einhverja tölu þannig að <span class="math notranslate nohighlight">\(k_i \leq f(x)\)</span> fyrir öll
+<span class="math notranslate nohighlight">\(x \in [x_{i-1},x_{i}]\)</span>. Nema annað sé tekið fram þá munum við
+alltaf ganga út frá að <span class="math notranslate nohighlight">\(k_i\)</span> hafi verið valið sem <strong>lággildi</strong>
+<span class="math notranslate nohighlight">\(f\)</span> á bilinu <span class="math notranslate nohighlight">\([x_{i-1},x_{i}]\)</span>. Vert er að nefna að til
+eru föll sem hafa ekki endilega lággildi á lokuðu bili, en við munum
+ekki skoða slík föll í þessu hefti. Eins munum við ætíð ganga út frá
+að <span class="math notranslate nohighlight">\(K_i\)</span> hafi verið valið sem <strong>hágildi</strong> fallisin <span class="math notranslate nohighlight">\(f\)</span> á
+bilinu <span class="math notranslate nohighlight">\([x_{i-1},x_{i}]\)</span>. Að endingu munum við svo alltaf velja
+<span class="math notranslate nohighlight">\(t_{i}\)</span> sem miðpunkt bilsins <span class="math notranslate nohighlight">\([x_{i-1},x_{i}]\)</span>, þ.e.</p>
+<div class="math notranslate nohighlight">
+\[t_{i} = \frac{x_{i-1}+x_{i}}{2}\]</div>
+</div>
+<div class="ath docutils container">
+<p>Óformlega er hægt er að líta á sérhvern lið í summunum sem flatarmál
+ákveðins ferhyrnings. Ferhyrningarnir sem um ræðir í tilfelli
+undirsummunar eru þeir ferhyrningar sem hafa búta skiptingarinnar sem
+grunnlínu, en hæð þeirra er síðan lægsta gildi fallsins <span class="math notranslate nohighlight">\(f\)</span> á
+hverjum bút. Fyrir yfir- og millisummuna er um sömu grunnlínur að
+ræða, en hæðirnar eru hæstu gildi <span class="math notranslate nohighlight">\(f\)</span> í tilfelli yfirsummunar,
+en fallgildi <span class="math notranslate nohighlight">\(f\)</span> í miðpunktum bútanna í tilfelli millisummunar.</p>
+<figure class="align-default" id="id2">
+<a class="reference internal image-reference" href="../_images/k2m6.png"><img alt="../_images/k2m6.png" src="../_images/k2m6.png" style="width: 95.0%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Myndræn framsetning á undir- og yfirsummu falls :math:`f` með
+skiptinguna :math:`S = {x_{0},x_{1},x_{2},x_{3}}` á bilinu
+:math:`[a,b]`.</em></span><a class="headerlink" href="#id2" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id3">
+<a class="reference internal image-reference" href="../_images/k2m7.png"><img alt="../_images/k2m7.png" src="../_images/k2m7.png" style="width: 95.0%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Myndræn framsetning á millisummu falls :math:`f` með skiptinguna
+:math:`S = {x_{0},x_{1},x_{2},x_{3}}` á bilinu :math:`[a,b]`.</em></span><a class="headerlink" href="#id3" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+<div class="ath docutils container">
+<p>Ef <span class="math notranslate nohighlight">\(S\)</span> er skipting á bili <span class="math notranslate nohighlight">\([a,b]\)</span> og við viljum finna há-
+og lágildi falls <span class="math notranslate nohighlight">\(f\)</span> á öllum bútum skiptingarinnar þá þurfum
+við að gera formerkjamynd fyrir afleiðu <span class="math notranslate nohighlight">\(f\)</span> og finna útgildi
+fallsins á öllum bútum skiptingarinnar. Það er þó ekki nauðsynlegt í
+öllum tilfellum, t.d. þegar fallið <span class="math notranslate nohighlight">\(f\)</span> er <strong>einhalla</strong>. Þannig
+fæst að ef <span class="math notranslate nohighlight">\(f\)</span> er <strong>vaxandi</strong> á bilinu þá mun það taka lágildi
+í vinstri endapunkti sérhvers bútar, en hágildi í hægri
+endapunktinum. Ef <span class="math notranslate nohighlight">\(f\)</span> er svo <strong>minnkandi</strong> á bilinu þá mun það
+taka hágildi í vinstri endapunkti sérhvers bútar, en lágildi í hægri
+endapunktinum.</p>
+</div>
+<div class="syn docutils container">
+<p>undir- yfir- og millisummur Gefið er fallið <span class="math notranslate nohighlight">\(f(x) = x^{2}\)</span> á
+bilinu <span class="math notranslate nohighlight">\([0,2]\)</span> og jafna skiptingin
+<span class="math notranslate nohighlight">\(I_4 = \left\{0,\frac{1}{2},1,\frac{3}{2},2\right\}\)</span>. Reiknið
+undir-, yfir- og millisummur fallsins <span class="math notranslate nohighlight">\(f\)</span> m.t.t.
+skiptingarinnar.</p>
+<p><strong>Lausn</strong> Þar sem fallið <span class="math notranslate nohighlight">\(f\)</span> er vaxandi á <span class="math notranslate nohighlight">\([0,2]\)</span> þá
+tekur það lægstu gildi sýn í vinstri endapunkti sérhvers bútar, en
+hæstu gildi sýn í hægri endapunkti sérhvers bútar. Athugum einnig að
+bútlengd sérhvers bútar er <span class="math notranslate nohighlight">\(\frac{1}{2}\)</span>. Við fáum því að</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+U_{I_{4}} &amp;= f(0)\cdot\frac{1}{2}+f\left(\frac{1}{2}\right)\cdot\frac{1}{2}+f(1)\cdot\frac{1}{2}+f\left(\frac{3}{2}\right)\cdot\frac{1}{2}\\ &amp;= \frac{1}{2}\cdot\left(0^{2}+\left(\frac{1}{2}\right)^{2}+1^{2}+\left(\frac{3}{2}\right)^{2}\right) = 1.75
+\end{aligned}\end{split}\]</div>
+<figure class="align-default" id="id4">
+<a class="reference internal image-reference" href="../_images/k2m2.png"><img alt="../_images/k2m2.png" src="../_images/k2m2.png" style="width: 80.0%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Myndræn framsetning á undursummu :math:`f` m.t.t. skiptingarinnar
+:math:`I_4`.</em></span><a class="headerlink" href="#id4" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<p>Eins fæst að yfirsumman er</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+Y_{I_{4}} &amp;= f\left(\frac{1}{2}\right)\cdot\frac{1}{2}+f\left(1\right)\cdot\frac{1}{2}+f\left(\frac{3}{2}\right)\cdot\frac{1}{2}+f\left(2\right)\cdot\frac{1}{2}\\ &amp;= \frac{1}{2}\cdot\left(\left(\frac{1}{2}\right)^{2}+1^{2}+\left(\frac{3}{2}\right)^{2}+2^{2}\right) = 3.75
+\end{aligned}\end{split}\]</div>
+<p>Við sjáum svo að miðpunktar bútanna eru <span class="math notranslate nohighlight">\(t_{1} = \frac{1}{4}\)</span>,
+<span class="math notranslate nohighlight">\(t_{2} = \frac{3}{4}\)</span>, <span class="math notranslate nohighlight">\(t_{3} = \frac{5}{4}\)</span> og
+<span class="math notranslate nohighlight">\(t_{4} = \frac{7}{4}\)</span>. Millisumman er því</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\sigma_{I_{4}} &amp;= f\left(\frac{1}{4}\right)\cdot\frac{1}{2}+f\left(\frac{3}{4}\right)\cdot\frac{1}{2}+f\left(\frac{5}{4}\right)\cdot\frac{1}{2}+f\left(\frac{7}{4}\right)\cdot\frac{1}{2}\\ &amp;= \frac{1}{2}\cdot\left(\left(\frac{1}{4}\right)^{2}+\left(\frac{3}{4}\right)^{2}+\left(\frac{5}{4}\right)^{2}+\left(\frac{7}{4}\right)^{2}\right) = 2.625
+\end{aligned}\end{split}\]</div>
+<figure class="align-default" id="id5">
+<a class="reference internal image-reference" href="../_images/k2m3.png"><img alt="../_images/k2m3.png" src="../_images/k2m3.png" style="width: 80.0%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Myndræn framsetning á yfirsummu :math:`f` m.t.t. skiptingarinnar
+:math:`I_4`.</em></span><a class="headerlink" href="#id5" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="id6">
+<a class="reference internal image-reference" href="../_images/k2m4.png"><img alt="../_images/k2m4.png" src="../_images/k2m4.png" style="width: 80.0%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Myndræn framsetning á millisummu :math:`f` m.t.t. skiptingarinnar
+:math:`I_4`.</em></span><a class="headerlink" href="#id6" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+<div class="syn docutils container">
+<p>undir- yfir- og millisummur Gefið er fallið
+<span class="math notranslate nohighlight">\(f(x) = \frac{1}{x}\)</span> á bilinu <span class="math notranslate nohighlight">\([1,2]\)</span> og skiptingin
+<span class="math notranslate nohighlight">\(S = \left\{1,\frac{4}{3},\frac{3}{2},2\right\}\)</span>. Reiknið
+undir-, yfir- og millisummur fallsins <span class="math notranslate nohighlight">\(f\)</span> m.t.t.
+skiptingarinnar.</p>
+<p><strong>Lausn:</strong> Athugum að fallið <span class="math notranslate nohighlight">\(f(x) = \frac{1}{x}\)</span> er minnkandi
+á bilinu <span class="math notranslate nohighlight">\([1,2]\)</span>. Þar með tekur það lággildi í hægri
+endapunktum sérhvers bútar, en hágildi í þeim vinstri. Við fáum þar
+með</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+U_{S} &amp;= f\left(\frac{4}{3}\right)\cdot \Delta x_{1} + f\left(\frac{3}{2}\right)\cdot\Delta x_{2} + f\left(2\right)\cdot \Delta x_{3}\\ &amp;= \frac{3}{4}\cdot\frac{1}{3} + \frac{2}{3}\cdot\frac{1}{6} + \frac{1}{2}\cdot\frac{1}{2} = \frac{11}{18} = 0.611
+\end{aligned}\end{split}\]</div>
+<p>og eins</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+Y_{S} &amp;= f\left(1\right)\cdot \Delta x_{1} + f\left(\frac{4}{3}\right)\cdot\Delta x_{2} + f\left(\frac{3}{2}\right)\cdot \Delta x_{3}\\ &amp;= 1\cdot\frac{1}{3}+\frac{3}{4}\cdot\frac{1}{6}+\frac{2}{3}\cdot\frac{1}{2} = \frac{19}{24} = 0.792
+\end{aligned}\end{split}\]</div>
+<p>Við sjáum svo að miðpunktar bútanna eru <span class="math notranslate nohighlight">\(t_{1} = \frac{7}{6}\)</span>,
+<span class="math notranslate nohighlight">\(t_{2} = \frac{17}{12}\)</span> og <span class="math notranslate nohighlight">\(t_{3} = \frac{7}{4}\)</span>.
+Millisumman er því</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\sigma_{S} &amp;= f\left(\frac{7}{6}\right)\cdot\Delta x_{1} + f\left(\frac{17}{12}\right)\cdot\Delta x_{2} + f\left(\frac{7}{4}\right)\cdot\Delta x_{3}\\
+&amp;= \frac{6}{7}\cdot\frac{1}{3}+\frac{12}{17}\cdot\frac{1}{6}+\frac{4}{7}\cdot\frac{1}{2} = \frac{82}{119} = 0.689
+\end{aligned}\end{split}\]</div>
+</div>
+<div class="syn docutils container">
+<p>undir- og yfirsummur Gefið er fallið <span class="math notranslate nohighlight">\(f(x) = x^3-2x^2+1\)</span> á
+bilinu <span class="math notranslate nohighlight">\(\left[-\frac{1}{2},2\right]\)</span>. Gerið formerkjamynd fyrir
+afleiðu <span class="math notranslate nohighlight">\(f\)</span> og notið hana svo til þess að reikna undir- og
+yfirsummu fallsins á bilinu m.t.t. skiptingarinnar
+<span class="math notranslate nohighlight">\(S =\left\{-\frac{1}{2},\frac{1}{2},1,2\right\}\)</span>.</p>
+<p><strong>Lausn:</strong> Byrjum á að diffra <span class="math notranslate nohighlight">\(f\)</span>, fáum
+<span class="math notranslate nohighlight">\(f'(x) = 3x^{2}-4x = x\left(3x-4\right)\)</span>. Sjáum því að
+<span class="math notranslate nohighlight">\(f'(x) = 0\)</span> ef <span class="math notranslate nohighlight">\(x = 0\)</span> eða <span class="math notranslate nohighlight">\(x = \frac{4}{3}\)</span>.
+Prófun gefur svo að <span class="math notranslate nohighlight">\(f'(x) &lt; 0\)</span> ef
+<span class="math notranslate nohighlight">\(x \in \left]0,\frac{4}{3}\right[\)</span> en <span class="math notranslate nohighlight">\(f'(x) &gt; 0\)</span> ef
+<span class="math notranslate nohighlight">\(x \in \left[-\frac{1}{2},0\right[ \cup \left]\frac{4}{3},2\right]\)</span>.</p>
+<p>Við getum nú notast við formerkjamyndina hér að ofan til þess að
+reikna undir- og yfirsummur <span class="math notranslate nohighlight">\(f\)</span> m.t.t <span class="math notranslate nohighlight">\(S\)</span>. Byrjum á
+undirsummunni.</p>
+<p>Á bútnum <span class="math notranslate nohighlight">\(\left[-\frac{1}{2},\frac{1}{2}\right]\)</span> tekur
+<span class="math notranslate nohighlight">\(f\)</span> lágildi í öðrum hvorum endapunktinum. Við höfum að
+<span class="math notranslate nohighlight">\(f\left(-\frac{1}{2}\right) = \frac{3}{8}\)</span> en
+<span class="math notranslate nohighlight">\(f\left(\frac{1}{2}\right) = \frac{5}{8}\)</span> svo <span class="math notranslate nohighlight">\(f\)</span> hefur
+þar með lágildi í vinstri endapunktinum á þessum bút. Á bútnum
+<span class="math notranslate nohighlight">\(\left[\frac{1}{2},1\right]\)</span> hefur <span class="math notranslate nohighlight">\(f\)</span> lágildi í hægri
+endapunktinum og á bútnum <span class="math notranslate nohighlight">\(\left[1,2\right]\)</span> hefur <span class="math notranslate nohighlight">\(f\)</span>
+svo lágildi í <span class="math notranslate nohighlight">\(x = \frac{4}{3}\)</span>. Við fáum þar með:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+U_{S} &amp;= f\left(-\frac{1}{2}\right)\Delta x_{1}+f\left(1\right)\Delta x_{2}+f\left(\frac{4}{3}\right)\Delta x_{3}\\ &amp;= \frac{3}{8}\cdot1+0\cdot\frac{1}{2}-\frac{5}{27}\cdot 1 = \frac{41}{216} = 0.190
+\end{aligned}\end{split}\]</div>
+<p>Skoðum nú yfirsummuna. Á bútnum
+<span class="math notranslate nohighlight">\(\left[-\frac{1}{2},\frac{1}{2}\right]\)</span> tekur <span class="math notranslate nohighlight">\(f\)</span> hágildi
+í <span class="math notranslate nohighlight">\(x = 0\)</span>, á bútnum <span class="math notranslate nohighlight">\(\left[\frac{1}{2},1\right]\)</span> tekur
+fallið hágildi í vinstri endapunktinum en á bútnum
+<span class="math notranslate nohighlight">\(\left[1,2\right]\)</span> tekur <span class="math notranslate nohighlight">\(f\)</span> hágildi í öðrum hvorum
+endapunktinum. Þar sem <span class="math notranslate nohighlight">\(f(1) = 0\)</span> en <span class="math notranslate nohighlight">\(f(2) = 1\)</span> þá tekur
+fallið hágildi í hægri endapunkti bútarins. Við fáum þar með:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+Y_{S} &amp;= f(0)\Delta x_{1} + f\left(\frac{1}{2}\right)\Delta x_{2} + f(2)\Delta x_{3}\\ &amp;= 1\cdot1 + \frac{5}{8}\cdot\frac{1}{2} + 1\cdot1 = \frac{37}{16} = 2.313
+\end{aligned}\end{split}\]</div>
+<figure class="align-default" id="id7">
+<a class="reference internal image-reference" href="../_images/k2m9.png"><img alt="../_images/k2m9.png" src="../_images/k2m9.png" style="width: 95.0%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Myndræn framsetning á undir- og yfirsummu fallsins :math:`f`
+m.t.t skiptingarinnar :math:`S`.</em></span><a class="headerlink" href="#id7" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+<div class="hregla docutils container">
+<p>Gerum ráð fyrir því að <span class="math notranslate nohighlight">\(S = \{x_{0},\ldots,x_{n}\}\)</span> sé skipting
+á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> og að <span class="math notranslate nohighlight">\(m \in [a,b]\)</span> sé ekki í menginu
+<span class="math notranslate nohighlight">\(S\)</span>. Þá er <span class="math notranslate nohighlight">\(S_{m} = S \cup \{m\}\)</span> einnig skipting á
+bilinu og fyrir sérhvert samfellt fall <span class="math notranslate nohighlight">\(f\)</span> á <span class="math notranslate nohighlight">\([a,b]\)</span>
+gildir að</p>
+<div class="math notranslate nohighlight">
+\[U_{S_{m}} \geq U_{S} \; \text{ og } \; Y_{S} \geq Y_{S_{m}}\]</div>
+</div>
+<div class="sonnun docutils container">
+<p>Þar sem talan <span class="math notranslate nohighlight">\(m\)</span> er ekki í menginu <span class="math notranslate nohighlight">\(S\)</span> en á bilinu
+<span class="math notranslate nohighlight">\([a,b]\)</span> þá er þar með til tala <span class="math notranslate nohighlight">\(j\)</span> þannig að
+<span class="math notranslate nohighlight">\(x_{j-1} &lt; s &lt; x_{j}\)</span>. Skiptingin <span class="math notranslate nohighlight">\(I_{m}\)</span> er því eins og
+<span class="math notranslate nohighlight">\(I\)</span> nema að bútnum <span class="math notranslate nohighlight">\([x_{j-1},x_{j}]\)</span> hefur verið skipt út
+en bútunum <span class="math notranslate nohighlight">\([x_{j-1},m]\)</span> og <span class="math notranslate nohighlight">\([m,x_{j}]\)</span> hefur verið skipt
+inn.</p>
+<p>Táknum nú lægstu gildi <span class="math notranslate nohighlight">\(f\)</span> á bútunum <span class="math notranslate nohighlight">\([x_{j-1},m]\)</span> og
+<span class="math notranslate nohighlight">\([m,x_{j}]\)</span> með <span class="math notranslate nohighlight">\(l_{1}\)</span> og <span class="math notranslate nohighlight">\(l_{2}\)</span>. Þá er ljóst að
+<span class="math notranslate nohighlight">\(k_{j} \leq l_{1}\)</span> og <span class="math notranslate nohighlight">\(k_{j} \leq l_{2}\)</span> þar sem
+<span class="math notranslate nohighlight">\(k_{j}\)</span> er lægsta gildi <span class="math notranslate nohighlight">\(f\)</span> á öllum bútnum
+<span class="math notranslate nohighlight">\([x_{j-1},x_{j}]\)</span>. Skoðum nú mismuninn
+<span class="math notranslate nohighlight">\(U_{S_{m}} - U_{S}\)</span>. Við fáum</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+U_{S_{m}} - U_{S} &amp;= \sum_{i= 1, i \neq j}^{n} k_{i}\Delta x_{i} + l_{1}\left(m-x_{j-1}\right)+l_{2}\left(x_{j} - m\right) - \sum_{i = 1}^{n} k_{i}\Delta x_{i}\\ &amp;= l_{1}\left(m-x_{j-1}\right)+l_{2}\left(x_{j} - m\right) - k_{j}\Delta x_{j}\\ &amp;\geq k_{j}\left(m-x_{j-1}\right)+k_{j}\left(x_{j} - m\right) - k_{j}\Delta x_{j}\\ &amp;= k_{j}m-k_{j}x_{j-1}+k_{j}x_{j}-k_{j}m-k_{j}\Delta x_{j}\\ &amp;= k_{j}(x_{j}-x_{j-1})-k_{j}\Delta x_{j} = k_{j}\Delta x_{j} - k_{j}\Delta x_{j} = 0
+\end{aligned}\end{split}\]</div>
+<p>Þ.e <span class="math notranslate nohighlight">\(U_{S_{m}} - U_{S} \geq 0\)</span> og því
+<span class="math notranslate nohighlight">\(U_{S_{m}} \geq U_{S}\)</span>.</p>
+<p>Sönnunin á ójöfnunni <span class="math notranslate nohighlight">\(Y_{S} \geq Y_{S_{m}}\)</span> er sambærileg
+sönnuninni hér á undan og er eftirlátin nemendum.</p>
+</div>
+<div class="regla docutils container">
+<p>Ef <span class="math notranslate nohighlight">\(S\)</span> og <span class="math notranslate nohighlight">\(T\)</span> eru bútanir á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> og
+<span class="math notranslate nohighlight">\(T\)</span> er fínni en <span class="math notranslate nohighlight">\(S\)</span> þá gildir fyrir öll samfelld föll á
+bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> að</p>
+<div class="math notranslate nohighlight">
+\[U_{S} \leq U_{T} \; \text{ og } \; Y_{T} \leq Y_{S}\]</div>
+</div>
+<div class="ath docutils container">
+<p>Reglan hér á undan er sönnuð með því að notast ítrekað við
+hjálparregluna, við eftirlátum nemendum að útfæra sönnunina.</p>
+</div>
+<div class="ath docutils container">
+<p>Á mannamáli segir reglan okkur að því fínni sem við gerum skiptinguna
+okkar, því hærra verður gildið á undirsummunni en því lægra á
+yfirsummunni. Því nálgast þessi gildi hvort annað þegar skiptingin er
+gerð fínni.</p>
+</div>
+<div class="regla docutils container">
+<p>Ef <span class="math notranslate nohighlight">\(S\)</span> og <span class="math notranslate nohighlight">\(T\)</span> eru bútanir á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> þá
+gildir fyrir öll samfelld föll <span class="math notranslate nohighlight">\(f\)</span> á bilinu að</p>
+<div class="math notranslate nohighlight">
+\[U_{S} \leq Y_{T}\]</div>
+</div>
+<div class="sonnun docutils container">
+<p>Athugum að <span class="math notranslate nohighlight">\(V = S \cup T\)</span> er skipting á <span class="math notranslate nohighlight">\([a,b]\)</span> sem er
+fínni en bæði <span class="math notranslate nohighlight">\(S\)</span> og <span class="math notranslate nohighlight">\(T\)</span>. Við fáum því</p>
+<div class="math notranslate nohighlight">
+\[U_{S} \leq U_{V} \leq Y_{V} \leq Y_{T}\]</div>
+</div>
+<div class="ath docutils container">
+<p>Með öðrum orðum, allar undirsummur hafa lægra gildi en allar
+yfirsummur.</p>
+</div>
+<div class="skilgr docutils container">
+<p>Ef <span class="math notranslate nohighlight">\(A \subseteq \mathbb{R}\)</span> og til er tala <span class="math notranslate nohighlight">\(K\)</span> þannig að
+<span class="math notranslate nohighlight">\(K \geq x\)</span> fyrir öll <span class="math notranslate nohighlight">\(x \in A\)</span> þá er sagt að mengið
+<span class="math notranslate nohighlight">\(A\)</span> sé <strong>takmarkað að ofan</strong>. Eins er sagt að mengið <span class="math notranslate nohighlight">\(A\)</span>
+sé <strong>takmarkað að neðan</strong> ef til er tala <span class="math notranslate nohighlight">\(k\)</span> þannig að
+<span class="math notranslate nohighlight">\(k \leq x\)</span> fyrir öll <span class="math notranslate nohighlight">\(x \in A\)</span>.</p>
+</div>
+<div class="frumsenda docutils container">
+<p>um fullkomleika <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> Ef mengi <span class="math notranslate nohighlight">\(A\)</span> er takmarkað að
+ofan þá er til minnsta tala <span class="math notranslate nohighlight">\(K \in \mathbb{R}\)</span> sem uppfyllir
+skilyrðið <span class="math notranslate nohighlight">\(K \geq x\)</span> fyrir öll <span class="math notranslate nohighlight">\(x \in A\)</span>. Hún er táknuð
+með <span class="math notranslate nohighlight">\(\sup(A)\)</span> og nefnist <strong>efra mark</strong> mengisins <span class="math notranslate nohighlight">\(A\)</span>.</p>
+<p>Eins gildir að ef mengið <span class="math notranslate nohighlight">\(A\)</span> er takmarkað að neðan þá er til
+stærsta tala <span class="math notranslate nohighlight">\(k \in \mathbb{R}\)</span> sem uppfyllir skilyrðið
+<span class="math notranslate nohighlight">\(k \leq x\)</span> fyrir öll <span class="math notranslate nohighlight">\(x \in A\)</span>. Hún er táknuð með
+<span class="math notranslate nohighlight">\(\inf(A)\)</span> og nefnist <strong>neðra mark</strong> mengisins <span class="math notranslate nohighlight">\(A\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Í þeim tilfellum þar sem mengi <span class="math notranslate nohighlight">\(A\)</span> hefur minnsta stak
+<span class="math notranslate nohighlight">\(\min(A)\)</span> þá gildir að <span class="math notranslate nohighlight">\(\inf(A) = \min(A)\)</span>, og eins
+gildir að ef <span class="math notranslate nohighlight">\(A\)</span> hefur stærsta stak <span class="math notranslate nohighlight">\(\max(A)\)</span> þá gildir
+að <span class="math notranslate nohighlight">\(\sup(A) = \max(A)\)</span>. Mengi <span class="math notranslate nohighlight">\(A\)</span> þarf þó ekki að hafa
+minnsta og/eða stærsta stak til þess að stærðirnar <span class="math notranslate nohighlight">\(\inf(A)\)</span> og
+<span class="math notranslate nohighlight">\(\sup(A)\)</span> séu vel skilgreindar. Ef við setjum t.d.
+<span class="math notranslate nohighlight">\(A = ]0,1[\)</span> þá gildir að <span class="math notranslate nohighlight">\(\inf(A) = 0\)</span> og
+<span class="math notranslate nohighlight">\(\sup(A) = 1\)</span>, en <span class="math notranslate nohighlight">\(A\)</span> hefur hvorki minnsta né stærsta
+stak.</p>
+</div>
+<div class="skilgr docutils container">
+<p>Látum <span class="math notranslate nohighlight">\(f\)</span> vera fall á bili <span class="math notranslate nohighlight">\([a,b]\)</span>. Efra mark mengis
+allra undirsumma <span class="math notranslate nohighlight">\(f\)</span> á bilinu nefnist þá <strong>neðra heildi</strong>
+fallsins <span class="math notranslate nohighlight">\(f\)</span> yfir bilið og er táknað með
+<span class="math notranslate nohighlight">\(\underline{I}(f)\)</span>. Neðra mark mengis allra yfirsumma <span class="math notranslate nohighlight">\(f\)</span>
+á bilinu nefnist svo <strong>efra heildi</strong> fallsins <span class="math notranslate nohighlight">\(f\)</span> yfir bilið og
+er táknað með <span class="math notranslate nohighlight">\(\overline{I}(f)\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Regla <span class="math notranslate nohighlight">\(2.3\)</span> tryggir að neðra- og efra heild falls <span class="math notranslate nohighlight">\(f\)</span> á
+bili <span class="math notranslate nohighlight">\([a,b]\)</span> er vel skilgreint og að
+<span class="math notranslate nohighlight">\(\underline{I}(f) \leq \overline{I}(f)\)</span>.</p>
+</div>
+<div class="skilgr docutils container">
+<p>Eiginlegt heildi Ef um fall <span class="math notranslate nohighlight">\(f\)</span> á bili <span class="math notranslate nohighlight">\([a,b]\)</span> gildir að
+<span class="math notranslate nohighlight">\(L = \underline{I}(f) = \overline{I}(f)\)</span> þá er fallið sagt
+<strong>heildanlegt</strong> yfir bilið <span class="math notranslate nohighlight">\([a,b]\)</span>. Talan <span class="math notranslate nohighlight">\(L\)</span> kallast
+<strong>eiginlega heildi</strong> fallsins <span class="math notranslate nohighlight">\(f\)</span> yfir bilið <span class="math notranslate nohighlight">\([a,b]\)</span>. Við
+táknum eiginlega heildið með</p>
+<div class="math notranslate nohighlight">
+\[\int_{a}^{b} f(x)\;dx\]</div>
+<p>Tölurnar <span class="math notranslate nohighlight">\(a\)</span> og <span class="math notranslate nohighlight">\(b\)</span> nefnast <strong>heildismörk</strong> heildisins.</p>
+</div>
+<div class="ath docutils container">
+<p>Með öðrum orðum má segja að ef til er <strong>nákvæmlega ein</strong> tala sem er
+stærri en eða jöfn öllum undirsummum og minni en eða jöfn öllum
+yfirsummum þá er fallið <span class="math notranslate nohighlight">\(f\)</span> heildanlegt yfir bilið
+<span class="math notranslate nohighlight">\([a,b]\)</span>, en talan sem um ræðir er ákveðna heildi fallsins yfir
+bilið.</p>
+</div>
+<div class="ath docutils container">
+<p>Umfjöllun um eiginleg heildi og flatarmál.</p>
+</div>
+<div class="skilgr docutils container">
+<p>Ef <span class="math notranslate nohighlight">\(f\)</span> er heildanlegt fall á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> þá
+skilgreinum við heildið</p>
+<div class="math notranslate nohighlight">
+\[\int_{b}^{a} f(x) \; dx = -\int_{a}^{b} f(x) \; dx\]</div>
+</div>
+<div class="ath docutils container">
+<p>Við megum með öðrum orðum víxla á heildismörkunum í eiginlegu heildi
+ef við víxlum einnig formerkinu.</p>
+</div>
+<div class="regla docutils container">
+<p>Ef <span class="math notranslate nohighlight">\(f\)</span> er heildanlegt fall á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> og
+<span class="math notranslate nohighlight">\(c \in [a,b]\)</span> þá gildir</p>
+<div class="math notranslate nohighlight">
+\[\int_{a}^{b} f(x) \; dx = \int_{a}^{c} f(x) \; dx + \int_{c}^{b} f(x) \; dx\]</div>
+</div>
+<div class="monnun docutils container">
+<figure class="align-default" id="id8">
+<a class="reference internal image-reference" href="../_images/k2m5.png"><img alt="../_images/k2m5.png" src="../_images/k2m5.png" style="width: 80.0%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Myndræn framsetning á reglunni hér á undan. Samanlagt flatarmál
+bláa og rauða svæðisins er jafnt flatarmáli græna svæðisins.</em></span><a class="headerlink" href="#id8" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+<div class="regla docutils container">
+<p>Ef <span class="math notranslate nohighlight">\(f\)</span> og <span class="math notranslate nohighlight">\(g\)</span> eru heildanleg föll á bili <span class="math notranslate nohighlight">\([a,b]\)</span> og
+<span class="math notranslate nohighlight">\(c \in \mathbb{R}\)</span> þá gildir:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{a}^{b} f(x) + g(x) \; dx = \int_{a}^{b} f(x) \; dx + \int_{a}^{b} g(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{a}^{b} c\cdot f(x) \; dx = c\cdot\int_{a}^{b} f(x) \; dx\)</span></p></li>
+</ul>
+</div>
+<div class="regla docutils container">
+<p>Gerum ráð fyrir því að <span class="math notranslate nohighlight">\(S_{n}\)</span> sé skipting á bilinu
+<span class="math notranslate nohighlight">\([a,b]\)</span> fyrir sérhvert <span class="math notranslate nohighlight">\(n \in \mathbb{N}\)</span>. Ef <span class="math notranslate nohighlight">\(f\)</span>
+er fall á bilinu þannig að</p>
+<div class="math notranslate nohighlight">
+\[\lim_{n \to \infty} U_{S_{n}} = \lim_{n \to \infty} Y_{S_{n}} = L\]</div>
+<p>þá er fallið <span class="math notranslate nohighlight">\(f\)</span> heildanlegt yfir bilið <span class="math notranslate nohighlight">\([a,b]\)</span> og</p>
+<div class="math notranslate nohighlight">
+\[\int_{a}^{b} f(x) \; dx = L\]</div>
+</div>
+<div class="syn docutils container">
+<p>eiginleg heildi Reiknum eiginlega heildi fallsins <span class="math notranslate nohighlight">\(f(x) = x^2\)</span>
+yfir bilið <span class="math notranslate nohighlight">\([0,1]\)</span>. Notfærum okkur að
+<span class="math notranslate nohighlight">\(\displaystyle \sum_{k = 1}^{n} k^{2} = \frac{n(n+1)(2n+1)}{6}\)</span>.</p>
+<p><strong>Lausn:</strong> Byrjum á að reikna
+<span class="math notranslate nohighlight">\(\displaystyle \lim_{n \to \infty} U_{I_{n}}\)</span>. Athugum að
+billengd sérhvers bútar í skiptingunni <span class="math notranslate nohighlight">\(I_n\)</span> er
+<span class="math notranslate nohighlight">\(\frac{1-0}{n} = \frac{1}{n}\)</span> og að fallið <span class="math notranslate nohighlight">\(f\)</span> er vaxandi
+svo lægsta gildi þess er tekið í vinstri endapunkti sérhvers bútar.
+Við sjáum einnig að <span class="math notranslate nohighlight">\(x_{k} = \frac{k}{n}\)</span> og því fæst:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+U_{I_{n}} &amp;= \sum_{k = 1}^{n} x_{k-1}^{2}\cdot\Delta x_{k}\\ &amp;= \sum_{k = 1}^{n} \left(\frac{k-1}{n}\right)^{2}\cdot\frac{1}{n}\\ &amp;= \frac{1}{n^{3}}\cdot\sum_{k = 0}^{n-1} k^{2} = \frac{1}{n^{3}}\cdot\sum_{k = 1}^{n-1} k^{2}\\ &amp;= \frac{1}{n^{3}} \cdot \frac{(n-1)n(2n-1)}{6}\\ &amp;= \frac{2n^{3}-3n^{2}+n}{6n^{3}} = \frac{1}{3}-\frac{1}{2n}+\frac{1}{6n^{2}}
+\end{aligned}\end{split}\]</div>
+<p>Þar með fæst að
+<span class="math notranslate nohighlight">\(\displaystyle \lim_{n \to \infty} U_{I_{n}} = \frac{1}{3}\)</span>.</p>
+<p>Þegar yfirsumman m.t.t. <span class="math notranslate nohighlight">\(I_{n}\)</span> er reiknuð þá notfærum við
+okkur að hæsta fallgildi <span class="math notranslate nohighlight">\(f\)</span> á hverjum bút er tekið í hægri
+endapunkta bútarins og fáum með sambærilegum hætti og hér að ofan að</p>
+<div class="math notranslate nohighlight">
+\[Y_{I_{n}} = \sum_{k = 1}^{n}x_{k}^{2}\Delta x_{k} = \frac{2n^{3}+3n^{2}+n}{6n^{3}} = \frac{1}{3}+\frac{1}{2n}+\frac{1}{6n^{2}}\]</div>
+<p>og þar með
+<span class="math notranslate nohighlight">\(\displaystyle \lim_{n \to \infty} Y_{I_{n}} = \frac{1}{3}\)</span>.</p>
+<p>Við fáum því að</p>
+<div class="math notranslate nohighlight">
+\[\int_{0}^{1} x^{2}\;dx = \frac{1}{3}\]</div>
+</div>
+<div class="regla docutils container">
+<p>Meðalgildisreglan fyrir heildi Ef <span class="math notranslate nohighlight">\(f\)</span> er samfellt fall á bili
+<span class="math notranslate nohighlight">\([a,b]\)</span> þá er til tala <span class="math notranslate nohighlight">\(c \in [a,b]\)</span> þannig að</p>
+<div class="math notranslate nohighlight">
+\[f(c) = \frac{1}{b-a}\int_{a}^{b} f(x) \; dx\]</div>
+</div>
+<div class="sonnun docutils container">
+<p>Setjum <span class="math notranslate nohighlight">\(S = \{a,b\}\)</span>. Þá er <span class="math notranslate nohighlight">\(S\)</span> skipting á bilinu
+<span class="math notranslate nohighlight">\([a,b]\)</span> og því gildir að</p>
+<div class="math notranslate nohighlight">
+\[U_{S} \leq \int_{a}^{b} f(x) \; dx \leq Y_{S}\]</div>
+<p>Ef við látum nú <span class="math notranslate nohighlight">\(k\)</span> vera lággildi <span class="math notranslate nohighlight">\(f\)</span> á <span class="math notranslate nohighlight">\([a,b]\)</span> en
+<span class="math notranslate nohighlight">\(K\)</span> hágildi þess á bilinu þá höfum við þar með</p>
+<div class="math notranslate nohighlight">
+\[k(b-a) \leq \int_{a}^{b} f(x) \; dx \leq K(b-a)\]</div>
+<p>og því</p>
+<div class="math notranslate nohighlight">
+\[k \leq \frac{1}{b-a}\int_{a}^{b} f(x) \; dx \leq K\]</div>
+<p>Milligildisreglan fyrir samfelld föll gefur því að til er
+<span class="math notranslate nohighlight">\(c \in [a,b]\)</span> þannig að</p>
+<div class="math notranslate nohighlight">
+\[f(c) = \frac{1}{b-a}\int_{a}^{b} f(x) \; dx\]</div>
+<figure class="align-default" id="id9">
+<a class="reference internal image-reference" href="../_images/k2m10.png"><img alt="../_images/k2m10.png" src="../_images/k2m10.png" style="width: 80.0%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><em>Myndræn framsetning á meðalgildisreglunni fyrir heildi.
+Flatarmálið undir ferli fallsins :math:`f` á bilinu :math:`[a,b]`
+er jafnt :math:`displaystyle int_{a}^{b} f(x);dx = f(c)(b-a)`</em></span><a class="headerlink" href="#id9" title="Link to this image"></a></p>
+</figcaption>
+</figure>
+</div>
+<div class="regla docutils container">
+<p>Undirstöðusetning stærðfræðigreiningarinnar Ef <span class="math notranslate nohighlight">\(f\)</span> er samfellt
+fall á <span class="math notranslate nohighlight">\([a,b]\)</span> og við skilgreinum fyrir öll <span class="math notranslate nohighlight">\(x \in [a,b]\)</span>
+fallið</p>
+<div class="math notranslate nohighlight">
+\[F(x) = \int_{a}^{x} f(t)\;dt\]</div>
+<p>þá gildir að <span class="math notranslate nohighlight">\(F'(x) = f(x)\)</span>.</p>
+</div>
+<div class="sonnun docutils container">
+<p>Byrjum á að skoða afleiðuna frá hægri, fáum:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+F'_{+}(x) &amp;= \lim_{h \to 0^{+}} \dfrac{F(x+h)-F(x)}{h}\\ &amp;= \lim_{h \to 0^{+}} \dfrac{\int_{a}^{x+h}f(t)\;dt - \int_{a}^{x}f(t)\;dt}{h}\\ &amp;= \lim_{h \to 0^{+}} \dfrac{\int_{x}^{x+h}f(t)\;dt}{h}\\ &amp;= \lim_{h \to 0^{+}} \frac{1}{h}\int_{x}^{x+h}f(t)\;dt
+\end{aligned}\end{split}\]</div>
+<p>Athugum nú að lengd bilsins <span class="math notranslate nohighlight">\([x,x+h]\)</span> er <span class="math notranslate nohighlight">\(h\)</span>, og því
+gefur meðalgildisreglan fyrir heildi að fyrir sérhvert <span class="math notranslate nohighlight">\(h&gt;0\)</span> er
+til tala <span class="math notranslate nohighlight">\(c_{h}\)</span> á bilinu <span class="math notranslate nohighlight">\([x,x+h]\)</span> þannig að</p>
+<div class="math notranslate nohighlight">
+\[f\left(c_{h}\right) = \frac{1}{h}\int_{x}^{x+h}f(t)\;dt\]</div>
+<p>Þegar <span class="math notranslate nohighlight">\(h\)</span> stefnir á <span class="math notranslate nohighlight">\(0\)</span> þá hlítur svo talan <span class="math notranslate nohighlight">\(c_{h}\)</span>
+að vera að stefna á <span class="math notranslate nohighlight">\(x\)</span> þar sem hún er klemmd á milli <span class="math notranslate nohighlight">\(x\)</span>
+og <span class="math notranslate nohighlight">\(x+h\)</span>. Samfelldni fallsins <span class="math notranslate nohighlight">\(f\)</span> gefur því:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}
+F'_{+}(x) = \lim_{h \to 0^{+}} f\left(c_{h}\right) = f(x)
+\end{aligned}\]</div>
+<p>Tilfellið fyrir vinstri afleiðuna er sambærilegt, við þurfum einungis
+að athuga að í því tilfelli er talan <span class="math notranslate nohighlight">\(c_h\)</span> á bilinu
+<span class="math notranslate nohighlight">\([x+h,x]\)</span> og við þurfum að huga örlítið að formerkjum í
+útreikningum okkar. Nemendum er eftirlátið að fylla í eyðurnar.</p>
+</div>
+<div class="ath docutils container">
+<p>Í reglunni hér að ofan túlkum við <span class="math notranslate nohighlight">\(F'(a)\)</span> sem afleiðu fallsins
+<span class="math notranslate nohighlight">\(F\)</span> frá hægri, en <span class="math notranslate nohighlight">\(F'(b)\)</span> sem afleiðu fallsins <span class="math notranslate nohighlight">\(F\)</span>
+frá vinstri.</p>
+</div>
+<div class="regla docutils container">
+<p>Undirstöðusetning stærðfræðigreiningarinnar - 2. útgáfa Ef <span class="math notranslate nohighlight">\(f\)</span>
+er samfellt fall á <span class="math notranslate nohighlight">\([a,b]\)</span> og <span class="math notranslate nohighlight">\(F\)</span> er stofnfall fyrir
+<span class="math notranslate nohighlight">\(f\)</span> þá gildir</p>
+<div class="math notranslate nohighlight">
+\[\int_{a}^{b}f(x)\;dx = F(b) - F(a)\]</div>
+</div>
+<div class="sonnun docutils container">
+<p>Ef við skilgreinum <span class="math notranslate nohighlight">\(G(t) = \int_{a}^{t}f(x)\;dx\)</span> þá er
+<span class="math notranslate nohighlight">\(G\)</span> stofnfall fyrir <span class="math notranslate nohighlight">\(f\)</span> skv. meginsetningu
+stærðfræðigreiningarinnar. Ef <span class="math notranslate nohighlight">\(F\)</span> er eitthvert annað stofnfall
+fyrir <span class="math notranslate nohighlight">\(G\)</span> þá gildir svo að til er fasti <span class="math notranslate nohighlight">\(k\)</span> þannig að</p>
+<div class="math notranslate nohighlight">
+\[F(t) = G(t) + k\]</div>
+<p>Þar sem <span class="math notranslate nohighlight">\(G(a) = 0\)</span> þá fæst þar með að <span class="math notranslate nohighlight">\(F(a) = k\)</span> og því
+fáum við</p>
+<div class="math notranslate nohighlight">
+\[G(t) = F(t) - k = F(t) - F(a)\]</div>
+<p>Setjum <span class="math notranslate nohighlight">\(t = b\)</span> og fáum svo</p>
+<div class="math notranslate nohighlight">
+\[\int_{a}^{b} f(x)\;dx = G(b) = F(b)-F(a)\]</div>
+</div>
+<div class="ath docutils container">
+<p>Mjög algengt er að notast við ritháttinn
+<span class="math notranslate nohighlight">\(\displaystyle \Biggl[F(x)\Biggr]_{a}^{b}\)</span> fyrir
+<span class="math notranslate nohighlight">\(F(b) - F(a)\)</span>. Við getum þá skrifað regluna hér á undan sem</p>
+<div class="math notranslate nohighlight">
+\[\int_{a}^{b}f(x)\;dx = \Biggl[F(x)\Biggr]_{a}^{b} = F(b) - F(a)\]</div>
+</div>
+<div class="syn docutils container">
+<p>ákveðin heildi Reiknum eftirfarandi ákveðnu heildi:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{1}^{2} 2x^{2}-x+1 \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{4}^{5} \frac{2}{x-3} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{0}^{1} 5\cos(\pi x) \; dx\)</span></p></li>
+</ul>
+<p><strong>Lausn:</strong></p>
+<ul>
+<li><div class="math notranslate nohighlight">
+\[\begin{aligned}
+\int_{1}^{2} 3x^{2}-x+1 \; dx = \Biggl[x^{3}-\frac{1}{2}x^{2}+x\Biggr]_{1}^{2} = 2^{3}-\frac{1}{2} \cdot 2^{2}+2 - \left(1^{3}-\frac{1}{2} \cdot 1 + 1\right) = 6.5
+\end{aligned}\]</div>
+</li>
+<li><div class="math notranslate nohighlight">
+\[\begin{aligned}
+\int_{4}^{5} \frac{2}{x-3} \; dx = 2\cdot\Biggl[\ln(x-3)\Biggr]_{4}^{5} = 2\cdot\left(\ln(5)-\ln(4)\right) = 2\ln\left(\frac{5}{4}\right) = 0.446
+\end{aligned}\]</div>
+</li>
+<li><div class="math notranslate nohighlight">
+\[\begin{aligned}
+\int_{0}^{1} 5\cos(\pi x) \; dx = 5\cdot\Biggl[\frac{1}{\pi}\sin(\pi x)\Biggr]_{0}^{1} = \frac{5}{\pi}\cdot\left(\sin(\pi)-\sin(0)\right) = 0
+\end{aligned}\]</div>
+</li>
+</ul>
+</div>
+<div class="aed docutils container">
+<p>Reiknið eftirfarandi ákveðnu heildi:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{1}^{3} -x^{2}+x+3 \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{0}^{1} 3^{x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{\pi}^{2\pi} 2\sin(x) \; dx\)</span></p></li>
+</ul>
+</div>
+<div class="regla docutils container">
+<p>Hlutheildun - Ákveðin heildi Ef <span class="math notranslate nohighlight">\(f\)</span> er heildanlegt fall á bili
+<span class="math notranslate nohighlight">\([a,b]\)</span> og <span class="math notranslate nohighlight">\(g\)</span> diffranlegt á sama bili þá gildir að</p>
+<div class="math notranslate nohighlight">
+\[\int_{a}^{b} f(x)g'(x) \; dx = \Biggl[f(x)g(x)\Biggr]_{a}^{b} - \int_{a}^{b} f'(x)g(x)\;dx\]</div>
+</div>
+<div class="syn docutils container">
+<p>hlutheildun Reiknum eftirfarandi heildi með því að notast við
+hlutheildun.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{0}^{1} xe^{x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{0}^{\pi} x\sin(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{1}^{e} 2x^{2}\ln(x) \; dx\)</span></p></li>
+</ul>
+<p><strong>Lausn:</strong></p>
+<ul>
+<li><p>Við veljum <span class="math notranslate nohighlight">\(f(x) = x\)</span> og <span class="math notranslate nohighlight">\(g'(x) = e^{x}\)</span>. Þá er
+<span class="math notranslate nohighlight">\(f'(x) = 1\)</span> og <span class="math notranslate nohighlight">\(g(x) = e^{x}\)</span> og við fáum því:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\int_{0}^{1} xe^{x}\;dx &amp;= \Biggl[xe^{x}\Biggr]_{0}^{1}-\int_{0}^{1}e^{x}\;dx = 1\cdot e^{1}-0\cdot e^{0} - \Biggl[e^{x}\Biggr]_{0}^{1}\\ &amp;= e - \left(e^{1}-e^{0}\right) = e^{0} = 1
+\end{aligned}\end{split}\]</div>
+</li>
+<li><p>Veljum <span class="math notranslate nohighlight">\(f(x) = x\)</span> og <span class="math notranslate nohighlight">\(g'(x) = \sin(x)\)</span>. Þá er
+<span class="math notranslate nohighlight">\(f'(x) = 1\)</span> og <span class="math notranslate nohighlight">\(g(x) = -\cos(x)\)</span> svo við fáum:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\int_{0}^{\pi} x\sin(x) \; dx &amp;= \Biggl[-x\cos(x)\Biggr]_{0}^{\pi} + \int_{0}^{\pi} \cos(x) \; dx = -\pi\cos(\pi)-(-0\cdot\cos(0)) + \Biggl[\sin(x)\Biggr]_{0}^{\pi}\\ &amp;= \pi + (\sin(\pi)-\sin(0)) = \pi
+\end{aligned}\end{split}\]</div>
+</li>
+<li><p>Veljum <span class="math notranslate nohighlight">\(f(x) = \ln(x)\)</span> og <span class="math notranslate nohighlight">\(g'(x) = 2x^{2}\)</span>. Þá er
+<span class="math notranslate nohighlight">\(f'(x) = \frac{1}{x}\)</span> og <span class="math notranslate nohighlight">\(g(x) = \frac{2}{3}x^{3}\)</span>.
+Því fæst:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\int_{1}^{e} 2x^{2}\ln(x) \; dx &amp;= \Biggl[\frac{2}{3}x^{3}\ln(x)\Biggr]_{1}^{e} - \int_{1}^{e} \frac{2}{3}x^{2} \; dx = \frac{2}{3}e^{3}\ln(e)-\frac{2}{3}e^{1}\ln(1) - \Biggl[\frac{2}{9}x^{3}\Biggr]_{1}^{e}\\ &amp;= \frac{2}{3}e^{3}-\left(\frac{2}{9}e^{3}-\frac{2}{9}\cdot 1^{3}\right) = \frac{2}{9}\left(2e^{3}+1\right)
+\end{aligned}\end{split}\]</div>
+</li>
+</ul>
+</div>
+<div class="aed docutils container">
+<p>Reiknið eftirfarandi heildi með því að notast við hlutheildun.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{0}^{2} x2^{x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{0}^{\pi} x\cos(2x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{1}^{2} \sqrt{x}\ln(x) \; dx\)</span></p></li>
+</ul>
+</div>
+<div class="regla docutils container">
+<p>Innsetningarregla - Ákveðin heildi Tökum föll <span class="math notranslate nohighlight">\(f\)</span> og <span class="math notranslate nohighlight">\(g\)</span>
+og bil <span class="math notranslate nohighlight">\([a,b]\)</span> þannig að <span class="math notranslate nohighlight">\(f\circ g\)</span> sé heildanlegt á
+<span class="math notranslate nohighlight">\(g\left([a,b]\right)\)</span> og <span class="math notranslate nohighlight">\(g\)</span> diffranlegt. Ef
+<span class="math notranslate nohighlight">\(u = g(x)\)</span> þá er <span class="math notranslate nohighlight">\(du = g'(x)\;dx\)</span> og</p>
+<div class="math notranslate nohighlight">
+\[\int_{a}^{b} f(g(x))\cdot g'(x)\;dx = \int_{g(a)}^{g(b)} f(u)\;du\]</div>
+</div>
+<div class="syn docutils container">
+<p>innsetningu Reiknum eftirfarandi heildi með því að notast við
+innsetningu.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{-1}^{1} 3x^{2}\left(x^{3}+1\right)^{5} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{e}^{e^{2}} \frac{\ln(\ln(x))}{x}  \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{0}^{\frac{\pi}{2}} \cos(x)\sin^{2}(x) \; dx\)</span></p></li>
+</ul>
+<p><strong>Lausn:</strong></p>
+<ul>
+<li><p>Setjum <span class="math notranslate nohighlight">\(u = x^{3}+1\)</span>. þá er <span class="math notranslate nohighlight">\(du = 3x^{2} \; dx\)</span>.
+Athugum einnig að ef <span class="math notranslate nohighlight">\(x = -1\)</span> þá höfum við <span class="math notranslate nohighlight">\(u = 0\)</span> og
+ef <span class="math notranslate nohighlight">\(x = 1\)</span> þá fæst <span class="math notranslate nohighlight">\(u = 2\)</span>. Við fáum því</p>
+<div class="math notranslate nohighlight">
+\[\int_{-1}^{1} 3x^{2}\left(x^{3}+1\right)^{5} \; dx = \int_{0}^{2} u^{5} \; du = \Biggl[\frac{1}{6}u^{6}\Biggr]_{0}^{2} = \frac{32}{3}\]</div>
+</li>
+<li><p>Setjum nú <span class="math notranslate nohighlight">\(u = \ln(x)\)</span>. Þá er <span class="math notranslate nohighlight">\(du = \frac{1}{x}\; dx\)</span>.
+Einnig höfum við að ef <span class="math notranslate nohighlight">\(x = e\)</span> þá er <span class="math notranslate nohighlight">\(u = 1\)</span> og ef
+<span class="math notranslate nohighlight">\(x = e^{2}\)</span> þá er <span class="math notranslate nohighlight">\(u = 2\)</span>. Því fæst</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\int_{e}^{e^{2}} \frac{\ln(\ln(x))}{x}  \; dx &amp;= \int_{1}^{2} \ln(u) \; du = \Biggl[u\ln(u)-u\Biggr]_{1}^{2}\\ &amp;= 2\ln(2)-2-\left(1\cdot\ln(1)-1\right)\\ &amp;= \ln(4)-1 = 0.386
+\end{aligned}\end{split}\]</div>
+</li>
+<li><p>Hér setjum við <span class="math notranslate nohighlight">\(u = \sin(x)\)</span>. Þá höfum við að
+<span class="math notranslate nohighlight">\(du = \cos(x) \; dx\)</span>. Einnig höfum við að þegar
+<span class="math notranslate nohighlight">\(x = 0\)</span> þá er <span class="math notranslate nohighlight">\(u = 0\)</span> og þegar
+<span class="math notranslate nohighlight">\(x = \frac{\pi}{2}\)</span> þá er <span class="math notranslate nohighlight">\(u = 1\)</span>. Við fáum því</p>
+<div class="math notranslate nohighlight">
+\[\int_{0}^{\frac{\pi}{2}} \cos(x)\sin^{2}(x) \; dx = \int_{0}^{1} u^{2} \; du = \Biggl[\frac{1}{3}u^{3}\Biggr]_{0}^{1} = \frac{1}{3}\]</div>
+</li>
+</ul>
+</div>
+<div class="aed docutils container">
+<p>Reiknið eftirfarandi heildi með því að notast við innsetningu.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{1}^{3} 4x\sqrt{x^{2+1}} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{0}^{1} x^{2}e^{x^{3}} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{1}^{2} \frac{2\ln(x)}{x}\; dx\)</span></p></li>
+</ul>
+</div>
+<section id="aefing-2">
+<h2><span class="section-number">2.1. </span>Æfing 2<a class="headerlink" href="#aefing-2" title="Link to this heading"></a></h2>
+<ol class="arabic">
+<li><p>Reiknið undir-, yfir- og millisummur eftirfarandi falla.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(f(x) = 2x\)</span> á bilinu <span class="math notranslate nohighlight">\([0,2]\)</span> m.t.t. skiptingarinnar
+<span class="math notranslate nohighlight">\(S = \left\{0,\frac{1}{2},\frac{3}{2},2\right\}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(h(x) = \frac{1}{x^{2}}\)</span> á bilinu <span class="math notranslate nohighlight">\([0,3]\)</span> m.t.t.
+jöfnu skiptingarinnar <span class="math notranslate nohighlight">\(I_{3}\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(g(x) = e^{x}\)</span> á bilinu <span class="math notranslate nohighlight">\([0,1]\)</span> m.t.t.
+skiptingarinnar
+<span class="math notranslate nohighlight">\(S = \left\{0,\frac{1}{2},\frac{5}{6},1\right\}\)</span>. Skilið
+svarinu með <span class="math notranslate nohighlight">\(3\)</span> aukastöfum.</p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x) = \cos(x)\)</span> á bilinu <span class="math notranslate nohighlight">\(\left[0,\pi\right]\)</span>
+m.t.t. skiptingarinnar
+<span class="math notranslate nohighlight">\(S = \left\{0,\frac{\pi}{4},\frac{\pi}{2},\pi\right\}\)</span>.
+Skilið svarinu með <span class="math notranslate nohighlight">\(3\)</span> aukastöfum.</p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><dl class="simple">
+<dt>Finnið útgildi fallsins <span class="math notranslate nohighlight">\(f\)</span> á bilinu <span class="math notranslate nohighlight">\([a,b]\)</span> og gerið</dt><dd><p>formerkjamynd fyrir afleiðuna. Notið svo niðurstöðurnar til þess
+að finna undir- og yfirsummu fallsins <span class="math notranslate nohighlight">\(f\)</span> m.t.t.
+skiptingarinnar <span class="math notranslate nohighlight">\(S\)</span>.</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(f(x) = \frac{1}{2}x^{3}-x\)</span>,
+<span class="math notranslate nohighlight">\([a,b] = \left[-1,2\right]\)</span> og
+<span class="math notranslate nohighlight">\(S = \left\{-1,0,\frac{3}{2},2\right\}\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x) =\)</span>, <span class="math notranslate nohighlight">\([a,b] =\)</span> og <span class="math notranslate nohighlight">\(S = \left\{\right\}\)</span>.</p></li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><p>Notist við gröf eftirfarandi falla til þess að reikna heildin.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Eitthvað</p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Reiknið eftirfarandi heildi.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{}^{} \; dx\)</span></p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><dl class="simple">
+<dt>Gefið er fallið <span class="math notranslate nohighlight">\(f(x) = x\)</span> á bilinu <span class="math notranslate nohighlight">\([0,1]\)</span>. Sýnið að</dt><dd><p><span class="math notranslate nohighlight">\(\displaystyle \lim_{n \to \infty} U_{I_{n}} = \lim_{n \to \infty} Y_{I_{n}}\)</span>
+og notfærið ykkur svo þessa niðurstöðu til þess að ákvarða
+<span class="math notranslate nohighlight">\(\displaystyle \int_{0}^{1} f(x) \; dx\)</span>.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Gefin eru föll <span class="math notranslate nohighlight">\(f\)</span> og <span class="math notranslate nohighlight">\(g\)</span> á bilinu <span class="math notranslate nohighlight">\([-a,a]\)</span> með</dt><dd><p><span class="math notranslate nohighlight">\(a &gt; 0\)</span>. Einnig er vitað að <span class="math notranslate nohighlight">\(f\)</span> er <strong>oddstætt fall</strong>
+en <span class="math notranslate nohighlight">\(g\)</span> er <strong>jafnstætt</strong>. Sýnið að þá gildi eftirfarandi
+reglur:</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{-a}^{a} f(x) \; dx = 0\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int_{-a}^{a} g(x) \; dx = 2\int_{0}^{a} g(x) \; dx\)</span></p></li>
+</ol>
+</dd>
+</dl>
+</li>
+<li><dl>
+<dt>Skilgreinum fallið <span class="math notranslate nohighlight">\(\ln : ]0,\infty[ \to \mathbb{R}\)</span> með því</dt><dd><p>að setja</p>
+<div class="math notranslate nohighlight">
+\[\ln(x) = \int_{1}^{x} \frac{1}{t} \; dt\]</div>
+<p>Notist við skilgreininguna til þess að sýna eftirfarandi:</p>
+<ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \left(\ln(x)\right)' = \frac{1}{x}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \ln\left(a^{b}\right) = b\ln(a)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \ln\left(ab\right) = \ln(a)+\ln(b)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \ln\left(\frac{a}{b}\right) = \ln(a) - \ln(b)\)</span></p></li>
+</ol>
+</dd>
+</dl>
+<ol class="arabic simple">
+<li><p>Sýna að fallið
+<span class="math notranslate nohighlight">\(\displaystyle f(x) = \begin{cases} 1 \text{ ef x er óræð tala}\\ 0 \text{ ef x er ræð tala}\end{cases}\)</span>
+sé ekki heildanlegt á <span class="math notranslate nohighlight">\([0,1]\)</span>. Sýna fyrst að milli sérhverra
+talna sé til ræð og óræð tala.</p></li>
+</ol>
+</li>
+</ol>
+</section>
+<section id="svor-vi-aefingu">
+<h2><span class="section-number">2.2. </span>Svör við æfingu<a class="headerlink" href="#svor-vi-aefingu" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><ol class="arabic simple">
+<li><p>Fastafall og 0. stigs margliða</p></li>
+<li><p>Veldisfall og 2. stigs margliða</p></li>
+<li><p>Hlutleysufall og 1. stigs margliða</p></li>
+<li><ol class="arabic simple">
+<li><p>stigs margliða</p></li>
+</ol>
+</li>
+<li><p>Veldisfall <span class="math notranslate nohighlight">\(\left(x^{\frac{1}{2}}\right)\)</span></p></li>
+<li><p>Fastafall og margliða sem hefur ekkert stig</p></li>
+<li><p>Rætt fall</p></li>
+<li><ol class="arabic simple" start="3">
+<li><p>stigs margliða</p></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>#.
+#.</p></li>
+<li><p>Svari sleppt.</p></li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../kafli01/" class="btn btn-neutral float-left" title="1. Stofnföll og heildisreglur" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../ordaskra/" class="btn btn-neutral float-right" title="Orðaskrá" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p></p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+<script>
+    window.addEventListener("load", function () {
+        for (var i in ggbAppletId) {
+            ggbAppletId[i].inject(i);
+        }
+    });
+</script>
+
+
+ 
+
+<style>
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search,
+    .wy-nav-top {
+       /* HI: #10099F, VoN: #EB7125, orginal #01447B */
+       background: #C1694F;
+    }
+
+    /* Sidebar */
+    .wy-nav-side {
+      /* orginal #343131, HÍ grár dekkri: #EEEEEE, HÍ svartur: #262626 */
+      background: #262626;
+    }
+</style>
+
+
+</body>
+</html>

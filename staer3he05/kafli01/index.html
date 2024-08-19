@@ -1,0 +1,857 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="is" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1. Stofnföll og heildisreglur &mdash; STÆR3HE05 - Heildun </title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=66b59bf7" />
+      <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/eqt.css?v=14aa8dc6" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/datacamp-custom.css?v=1b632803" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/edbook.css?v=13b926f9" />
+
+  
+    <link rel="shortcut icon" href="../_static/namsefni.ico"/>
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=8b0c2044"></script>
+      <script src="../_static/doctools.js?v=9a2dae69"></script>
+      <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+      <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+      <script src="../_static/copybutton.js?v=f281be69"></script>
+      <script src="../_static/js/eqt.js?v=555177ae"></script>
+      <script src="../_static/translations.js?v=da5fa714"></script>
+      <script src="https://cdn.datacamp.com/datacamp-light-latest.min.js"></script>
+      <script async="async" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="../_static/js/theme.js"></script>
+
+<!-- hoverrole.py css code -->
+<style type="text/css">
+    a.tooltip {
+        outline: none;
+        border-bottom: thin dotted;
+        background: #ffeedd
+    }
+
+    a.tooltip strong {
+        line-height: 30px;
+    }
+
+    a.tooltip:hover {
+        text-decoration: none;
+    }
+
+    a.tooltip span {
+        z-index: 10;
+        display: none;
+        padding: 14px 20px;
+        margin-top: -30px;
+        margin-left: 12px;
+        width: 310px;
+        line-height: 16px;
+    }
+
+    a.tooltip:hover span {
+        display: inline;
+        position: absolute;
+        color: #111;
+        border: 1px solid #DCA;
+        background: #fffAF0;
+    }
+
+    .callout {
+        z-index: 20;
+        position: absolute;
+        top: 30px;
+        border: 0;
+        left: -12px;
+    }
+
+    /*CSS3*/
+    a.tooltip span {
+        border-radius: 4px;
+        box-shadow: 5px 5px 8px #CCC;
+    }
+</style>
+<!-- End hoverrole.py css code -->
+
+<style type="text/css">
+    .sagecell .CodeMirror-scroll {
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+
+    .sagecell .CodeMirror {
+        height: auto;
+    }
+
+    /* - Begin equation reference style - */
+    h6.eqno {
+        display: inline-block;
+        padding-left: 10px;
+    }
+
+    h6 .headerlink {
+        display: inline-block !important;
+    }
+
+    h6 .headerlink:after {
+        visibility: hidden !important;
+    }
+
+    h6 .headerlink:hover:after {
+        visibility: visible !important;
+    }
+
+    .eqno:hover>.headerlink:after {
+        visibility: visible !important;
+    }
+
+    table>caption>.headerlink {
+        visibility: hidden !important;
+    }
+
+    table>caption>.headerlink {
+        visibility: hidden !important;
+    }
+
+    /* - End - */
+</style>
+
+
+
+    <link rel="index" title="Atriðaskrá" href="../genindex/" />
+    <link rel="search" title="Leit" href="../search/" />
+    <link rel="next" title="2. Eiginleg heildi" href="../kafli02/" />
+    <link rel="prev" title="STÆR3HE05 - Heildun, Menntaskólinn á Akureyri" href="../" />
+
+
+
+<!--	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+<script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<script>ggbAppletId = [];</script>
+
+
+ 
+
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            STÆR3HE05 - Heildun
+              <img src="../_static/namsefni.svg" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Stofnföll og heildisreglur</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#aefing-1">1.1. Æfing 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#svor-vi-aefingu">1.2. Svör við æfingu</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../kafli02/">2. Eiginleg heildi</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../ordaskra/">Orðaskrá</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">STÆR3HE05 - Heildun</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active"><span class="section-number">1. </span>Stofnföll og heildisreglur</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/edbook/haskoli-islands/blob/master/projects/staer3he05/kafli01.rst" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="stofnfoll-og-heildisreglur">
+<h1><span class="section-number">1. </span>Stofnföll og heildisreglur<a class="headerlink" href="#stofnfoll-og-heildisreglur" title="Link to this heading"></a></h1>
+<div class="skilgr docutils container">
+<p>Gerum ráð fyrir því að <span class="math notranslate nohighlight">\(f\)</span> sé fall skilgreint á
+<span class="math notranslate nohighlight">\(I \subseteq \mathbb{R}\)</span>. Ef til er fall <span class="math notranslate nohighlight">\(F\)</span> sem er
+diffranlegt fyrir öll <span class="math notranslate nohighlight">\(x \in I\)</span> þannig að <span class="math notranslate nohighlight">\(F'(x) = f(x)\)</span>
+þá segjum við að <span class="math notranslate nohighlight">\(F\)</span> sé <strong>stofnfall</strong> fyrir <span class="math notranslate nohighlight">\(f\)</span> á
+<span class="math notranslate nohighlight">\(I\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Þegar nöfn falla eru gefin með litlum bókstaf, t.d. <span class="math notranslate nohighlight">\(f, g, h\)</span>
+o.s.frv. þá ef hefð fyrir því að notast við sambærilega stóra stafi
+fyrir nöfn stofnfalla þeirra, t.d. <span class="math notranslate nohighlight">\(F, G, H\)</span> o.s.frv. Þetta er
+þó ekki nauðsynlegt og notast má við hvern bókstaf eða nafn á
+stofnfallinu sem hentar hverju sinni.</p>
+</div>
+<div class="ath docutils container">
+<p>Mikilvægt er að þekkja afleiður algengustu fallanna þegar verið er að
+heilda, en töflu yfir þær má finna í viðauka þessa heftis.</p>
+</div>
+<div class="regla docutils container">
+<p>Helstu Diffrunarreglur - Upprifjun Gerum ráð fyrir því að <span class="math notranslate nohighlight">\(f\)</span>
+og <span class="math notranslate nohighlight">\(g\)</span> séu diffranleg föll og að <span class="math notranslate nohighlight">\(a\)</span> sé fasti. Þá gildir:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\left(f(x)+g(x)\right)' = f'(x)+g'(x)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\left(af(x)\right)' = a\left(f(x)\right)'\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\left(f(x)g(x)\right)' = f'(x)g(x)+f(x)g'(x)\)</span>
+(Margföldunarreglan, Leibnitz reglan)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\left(\dfrac{f(x)}{g(x)}\right)' = \dfrac{f'(x)g(x)-f(x)g'(x)}{g(x)^{2}}\)</span>
+(Hlutfallsreglan)</p></li>
+<li><p><span class="math notranslate nohighlight">\(\left(f(g(x))\right)' = f'(g(x))g'(x)\)</span> (Keðjureglan)</p></li>
+</ul>
+</div>
+<div class="ath docutils container">
+<p>Fyrsta reglan hér að ofan felur í sér að sérhvert fall megi diffra
+lið fyrir lið, jafnvel þótt það samanstandi af fleiri en tveimur
+liðum.</p>
+</div>
+<div class="aed docutils container">
+<p>Diffrið eftirfarandi föll.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(F(x) = 3x^4-5x^2+2x-1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(G(x) = 2x^{2}\cos\left(4x-1\right)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(H(x) = \ln\left(3x^{2}+2\right)\)</span></p></li>
+</ul>
+</div>
+<div class="skilgr docutils container">
+<p>Gerum ráð fyrir að <span class="math notranslate nohighlight">\(I \subseteq \mathbb{R}\)</span>. Við segjum að
+mengið <span class="math notranslate nohighlight">\(I\)</span> sé <strong>bil</strong> í <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> ef fyrir öll
+<span class="math notranslate nohighlight">\(a,b\)</span> í <span class="math notranslate nohighlight">\(I\)</span> með <span class="math notranslate nohighlight">\(a &lt; b\)</span> gildir að ef
+<span class="math notranslate nohighlight">\(a &lt; x &lt; b\)</span> þá er <span class="math notranslate nohighlight">\(x \in I\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Óformlega má segja að mengi <span class="math notranslate nohighlight">\(I \subseteq \mathbb{R}\)</span> nefnist
+bil ef það inniheldur engin ”göt”.</p>
+</div>
+<div class="ath docutils container">
+<p>Hægt er að sanna að öll bil í <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> eru af einhverri af
+eftirfarandi gerðum:</p>
+<ul class="simple">
+<li><p>Takmörkuðu bilin í <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>, þ.e. mengi af gerðinni
+<span class="math notranslate nohighlight">\(]a,b[\)</span>, <span class="math notranslate nohighlight">\(]a,b]\)</span>, <span class="math notranslate nohighlight">\([a,b[\)</span> og <span class="math notranslate nohighlight">\([a,b]\)</span> þar
+sem <span class="math notranslate nohighlight">\(a\)</span> og <span class="math notranslate nohighlight">\(b\)</span> eru rauntölur og <span class="math notranslate nohighlight">\(a &lt; b\)</span>.</p></li>
+<li><p>Hálflínurnar í <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>, þ.e. mengi af gerðinni
+<span class="math notranslate nohighlight">\(]-\infty,a[\)</span>, <span class="math notranslate nohighlight">\(]-\infty,a]\)</span>, <span class="math notranslate nohighlight">\(]a,\infty[\)</span> og
+<span class="math notranslate nohighlight">\([a,\infty[\)</span> þar sem <span class="math notranslate nohighlight">\(a\)</span> er rauntala.</p></li>
+<li><p>Mengin <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> og <span class="math notranslate nohighlight">\(\varnothing\)</span>.</p></li>
+</ul>
+</div>
+<div class="ath docutils container">
+<p>Í þessu hefti munum við alltaf gera ráð fyrir því að umrædd bil séu
+<strong>ekki</strong> <span class="math notranslate nohighlight">\(\varnothing\)</span> nema annað sé sérstaklega tekið fram.</p>
+</div>
+<div class="aed docutils container">
+<p>Rifjið upp bilritháttinn sem notast var við hér að ofan og skrifið
+sérhverja bilgerð (að <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> og <span class="math notranslate nohighlight">\(\varnothing\)</span>
+undanskildum) með mengjarithætti.</p>
+</div>
+<div class="regla docutils container">
+<p>Ef <span class="math notranslate nohighlight">\(f\)</span> er fall skilgreint á bili <span class="math notranslate nohighlight">\(I \subseteq \mathbb{R}\)</span>
+og <span class="math notranslate nohighlight">\(F\)</span> og <span class="math notranslate nohighlight">\(G\)</span> eru tvö stofnföll fyrir <span class="math notranslate nohighlight">\(f\)</span> á
+<span class="math notranslate nohighlight">\(I\)</span> þá er til tala <span class="math notranslate nohighlight">\(k \in \mathbb{R}\)</span> þannig að
+<span class="math notranslate nohighlight">\(F(x) = G(x) + k\)</span> fyrir öll <span class="math notranslate nohighlight">\(x \in I\)</span>.</p>
+</div>
+<div class="sonnun docutils container">
+<p>Þar sem <span class="math notranslate nohighlight">\(F\)</span> og <span class="math notranslate nohighlight">\(G\)</span> eru bæði stofnföll fyrir <span class="math notranslate nohighlight">\(f\)</span> þá
+fæst</p>
+<div class="math notranslate nohighlight">
+\[\left(F(x)-G(x)\right)' = F'(x)-G'(x) = f(x)-f(x) = 0\]</div>
+<p>fyrir öll <span class="math notranslate nohighlight">\(x \in I\)</span>. Þar með gefur regla úr fyrri áfanga að til
+sé tala <span class="math notranslate nohighlight">\(k \in \mathbb{R}\)</span> þannig að <span class="math notranslate nohighlight">\(F(x) - G(x) = k\)</span>
+fyrir öll <span class="math notranslate nohighlight">\(x \in I\)</span> og því <span class="math notranslate nohighlight">\(F(x) = G(x) + k\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Talan <span class="math notranslate nohighlight">\(k\)</span> sem kom fram í reglunni hér á undan er yfirleitt
+kölluð <strong>heildisfastinn</strong> sem fæst úr heilduninni. Hann er ætíð stak
+í mengi rauntalna, en við munum ekki tilgreina það sérstaklega héðan
+í frá.</p>
+</div>
+<div class="aed docutils container">
+<p>Föllin hér að neðan hafa öll náttúrulega skilgreiningarmengið
+<span class="math notranslate nohighlight">\(\mathbb{R}\)</span>. Finnið öll stofnföll þeirra á því mengi.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(f(x) = 7+3x^2-5x^5\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(g(x) = 2\cos(3x)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(h(x) = 3e^{5x}\)</span></p></li>
+</ul>
+</div>
+<div class="skilgr docutils container">
+<p>Við notum táknmálið</p>
+<div class="math notranslate nohighlight">
+\[\int f(x)\;dx\]</div>
+<p>til þess að tákna öll stofnföll fallsins <span class="math notranslate nohighlight">\(f\)</span> og köllum þessa
+stærð <strong>óeiginlega heildi</strong> fallsins <span class="math notranslate nohighlight">\(f\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Óeiginlega heildi fallsins <span class="math notranslate nohighlight">\(f\)</span> er iðulega bara kallað heildi
+þess, en verknaðurinn að finna það er kallaður að heilda.</p>
+</div>
+<div class="regla docutils container">
+<p>Einfaldir eiginleikar heildunar Gerum ráð fyrir því að <span class="math notranslate nohighlight">\(f\)</span> og
+<span class="math notranslate nohighlight">\(g\)</span> séu föll á bili <span class="math notranslate nohighlight">\(I\)</span> og að <span class="math notranslate nohighlight">\(a\)</span> sé fasti. Þá
+gildir:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int f(x)+g(x)\; dx = \int f(x) \; dx + \int g(x) \; dx\)</span>.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int af(x)\; dx = a\int f(x) \; dx\)</span></p></li>
+</ul>
+</div>
+<div class="ath docutils container">
+<p>Sönnun reglunnar hér að ofan er mjög einföld afleiðing af
+diffrunareglunum í upphafi kaflans og er eftirlátin nemendum.</p>
+</div>
+<div class="regla docutils container">
+<p>(Upprifjun á nokkrum velda- og rótarreglum) Eftirfarandi velda- og
+rótarreglur reynast gagnlegar þegar verið er að heilda:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \sqrt[n]{x} = x^{\tfrac{1}{n}}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle x^{-n} = \frac{1}{x^{n}}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \sqrt[m]{x^{n}} = x^{\tfrac{n}{m}}\)</span></p></li>
+</ul>
+</div>
+<div class="aed docutils container">
+<p>Reiknið eftirfarandi heildi.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 2x^{\tfrac{3}{5}}-5\sqrt[7]{x^{2}} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{3}{x^{4}}\; dx\)</span></p></li>
+</ul>
+</div>
+<div class="syn docutils container">
+<p>heildun þar sem skilgreiningarmengið er ekki bil</p>
+<p>Finnum <span class="math notranslate nohighlight">\(\displaystyle \int f(x)\; dx\)</span> með
+<span class="math notranslate nohighlight">\(f(x) = \frac{1}{x}\)</span>. Athugum sérstaklega að náttúrulegt
+skilgreiningarmengi <span class="math notranslate nohighlight">\(f\)</span> er
+<span class="math notranslate nohighlight">\(\mathbb{R}\setminus \{0\} = ]-\infty,0[ \cup ]0,\infty[\)</span> og
+því er það <strong>ekki</strong> bil heldur sammengi tveggja bila. Við skulum því
+finna stofnfall fyrir <span class="math notranslate nohighlight">\(f\)</span> á hvoru bili fyrir sig. Byrjum á
+bilinu <span class="math notranslate nohighlight">\(]0,\infty[\)</span>.</p>
+<p>Nú vitum við að <span class="math notranslate nohighlight">\(\left(\ln(x)\right)' = \frac{1}{x}\)</span>, og þar
+sem náttúrulegt skilgreiningarmengi <span class="math notranslate nohighlight">\(\ln\)</span> er <span class="math notranslate nohighlight">\(]0,\infty[\)</span>
+þá höfum við fundið stofnfall fyrir <span class="math notranslate nohighlight">\(f\)</span> á því bili.</p>
+<p>Athugum nú að fyrir <span class="math notranslate nohighlight">\(x \in ]-\infty,0[\)</span> gildir að
+<span class="math notranslate nohighlight">\(-x &gt; 0\)</span> og því er stærðin <span class="math notranslate nohighlight">\(\ln(-x)\)</span> skilgreind.
+Keðjureglan gefur nú að
+<span class="math notranslate nohighlight">\(\left(\ln(-x)\right)' = \frac{1}{-x}\cdot(-1) = \frac{1}{x}\)</span>
+og því er <span class="math notranslate nohighlight">\(\ln(-x)\)</span> stofnfall fyrir <span class="math notranslate nohighlight">\(f\)</span> á bilinu
+<span class="math notranslate nohighlight">\(]-\infty,0[\)</span>.</p>
+<p>Við fáum því að stofnfall fyrir <span class="math notranslate nohighlight">\(f\)</span> á
+<span class="math notranslate nohighlight">\(\mathbb{R}\setminus \{0\}\)</span> er gefið með</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}F(x) = \begin{cases} \ln(x) + k_1 \;\;\;\; \text{ef} \; x &gt; 0\\ \ln(-x) + k_2 \; \text{ef} \; x &lt; 0\end{cases}\end{split}\]</div>
+<p>Þar sem <span class="math notranslate nohighlight">\(k_1,k_2\)</span> eru einhverjir fastar. Þetta má svo umrita</p>
+<div class="math notranslate nohighlight">
+\[F(x) = \ln|x|+k(x)\]</div>
+<p>þar sem <span class="math notranslate nohighlight">\(k(x) = k_1\)</span> ef <span class="math notranslate nohighlight">\(x &gt; 0\)</span> en <span class="math notranslate nohighlight">\(k(x) = k_2\)</span> ef
+<span class="math notranslate nohighlight">\(x &lt; 0\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Í flestum kennslubókum stendur einfaldlega að
+<span class="math notranslate nohighlight">\(\displaystyle \int \frac{1}{x} \; dx = \ln|x| + k\)</span> þar sem
+<span class="math notranslate nohighlight">\(k \in \mathbb{R}\)</span>. Við munum leyfa okkur að rita þetta með
+þessum hætti þegar verið er að heilda föll sem ekki eru skilgreind á
+bili.</p>
+</div>
+<div class="aed docutils container">
+<p>Reiknið heildið <span class="math notranslate nohighlight">\(\displaystyle \int \frac{1}{x^{2}} \; dx\)</span>.
+Finnið svo stofnfall <span class="math notranslate nohighlight">\(F\)</span> fyrir fallið
+<span class="math notranslate nohighlight">\(f(x) = \frac{1}{x^{2}}\)</span> sem uppfyllir skilyrðin
+<span class="math notranslate nohighlight">\(F(-1) = 2\)</span> og <span class="math notranslate nohighlight">\(F(1) = -1\)</span> eða tilgreinið af hverju slíkt
+stofnfall er ekki til.</p>
+</div>
+<div class="regla docutils container">
+<p>Hlutheildunarregla Gerum ráð fyrir því að fallið <span class="math notranslate nohighlight">\(f\)</span> sé
+diffranlegt og að <span class="math notranslate nohighlight">\(g'\)</span> sé afleiða <span class="math notranslate nohighlight">\(g\)</span>. Þá gildir að</p>
+<div class="math notranslate nohighlight">
+\[\int f(x)g'(x)\;dx = f(x)g(x) - \int f'(x)g(x)\;dx\]</div>
+</div>
+<div class="sonnun docutils container">
+<p>Margföldunarreglan fyrir diffrun gefur að</p>
+<div class="math notranslate nohighlight">
+\[\left(f(x)g(x)\right)' = f'(x)g(x) + f(x)g'(x)\]</div>
+<p>og því fæst að</p>
+<div class="math notranslate nohighlight">
+\[f(x)g'(x) = \left(f(x)g(x)\right)' - f'(x)g(x)\]</div>
+<p>Heildum svo og fáum</p>
+<div class="math notranslate nohighlight">
+\[\int f(x)g'(x)\;dx = f(x)g(x) - \int f'(x)g(x)\;dx\]</div>
+</div>
+<div class="ath docutils container">
+<p>Notkun reglunnar er með þeim hætti að notandinn velur föllin
+<span class="math notranslate nohighlight">\(f\)</span> og <span class="math notranslate nohighlight">\(g'\)</span> eftir hentugleika og notast svo við regluna.
+Ef föllin voru vel valin þá ætti heildið sem fæst hægra megin
+jafnaðarmerkisins að vera einfaldara en heildið sem byrjað var með.
+Einnig kemur það oft fyrir að notast þarf við hlutheildunarregluna
+oftar en einu sinni í sama dæminu þar til niðurstaða fæst.</p>
+</div>
+<div class="syn docutils container">
+<p>hlutheildun Reiknum eftirfarandi heildi með því að notast við
+hlutheildun.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int xe^{x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 2x\cos(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x\ln(x) \; dx\)</span></p></li>
+</ul>
+<p><strong>Lausn:</strong></p>
+<ul>
+<li><p>Hér veljum við <span class="math notranslate nohighlight">\(f(x) = x\)</span> og <span class="math notranslate nohighlight">\(g'(x) = e^{x}\)</span>. Við
+höfum þá að <span class="math notranslate nohighlight">\(f'(x) = 1\)</span> og <span class="math notranslate nohighlight">\(g(x) = e^{x}\)</span>. Þar með
+fæst</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}
+\int xe^{x} \; dx = xe^{x} - \int e^{x} \; dx = xe^{x} - e^{x} + k
+\end{aligned}\]</div>
+</li>
+<li><p>Veljum <span class="math notranslate nohighlight">\(f(x) = 2x\)</span> og <span class="math notranslate nohighlight">\(g'(x) = \cos(x)\)</span>. Við fáum þá
+að <span class="math notranslate nohighlight">\(f'(x) = 2\)</span> og <span class="math notranslate nohighlight">\(g(x) = \sin(x)\)</span>. Því fáum við</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}
+\int 2x\cos(x) \; dx = 2x\sin(x) - \int 2\sin(x) \; dx = 2x\sin(x) + 2\cos(x) + k
+\end{aligned}\]</div>
+</li>
+<li><p>Hér er skynsamlegt að velja <span class="math notranslate nohighlight">\(f(x) = \ln(x)\)</span> en
+<span class="math notranslate nohighlight">\(g'(x) = x\)</span>. Við fáum því <span class="math notranslate nohighlight">\(f'(x) = \frac{1}{x}\)</span> og
+<span class="math notranslate nohighlight">\(g(x) = \frac{1}{2}x^{2}\)</span> og þar með</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}
+\int x\ln(x) \; dx = \frac{1}{2}x^{2}\ln(x) - \int \frac{1}{2}x \; dx = \frac{1}{2}x^{2}\ln(x) - \frac{1}{4}x^{2} + k
+\end{aligned}\]</div>
+</li>
+</ul>
+</div>
+<div class="aed docutils container">
+<p>Reiknið eftirfarandi heildi með því að notast við hlutheildun.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 2x3^{x}\; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x\sin(3x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x^{2}\ln(x)\; dx\)</span></p></li>
+</ul>
+</div>
+<div class="regla docutils container">
+<p>Innsetningarregla</p>
+<p>Ef <span class="math notranslate nohighlight">\(F\)</span> er stofnfall fyrir fallið <span class="math notranslate nohighlight">\(f\)</span> og <span class="math notranslate nohighlight">\(g'\)</span> er
+afleiða fallsins <span class="math notranslate nohighlight">\(g\)</span> þá gildir að</p>
+<div class="math notranslate nohighlight">
+\[\int f(g(x))\cdot g'(x)\;dx = F(g(x))+k\]</div>
+</div>
+<div class="sonnun docutils container">
+<p>Við notumst við keðjuregluna og fáum að</p>
+<div class="math notranslate nohighlight">
+\[\left(F(g(x))\right)' = F'(g(x))\cdot g'(x) = f(g(x))\cdot g'(x)\]</div>
+<p>Heildun gefur því</p>
+<div class="math notranslate nohighlight">
+\[\int f(g(x))\cdot g'(x) \;dx = \int \left(F(g(x))\right)' \;dx = F(g(x))+k\]</div>
+</div>
+<div class="ath docutils container">
+<p>Notkun innsetningarreglunnar er með sambærilegum hætti og notkun
+hlutheildunarreglunnar. Við þurfum að velja föllin <span class="math notranslate nohighlight">\(f\)</span> og
+<span class="math notranslate nohighlight">\(g\)</span> með skynsamlegum hætti svo hægt sé að beyta reglunni, og í
+kjölfarið finna stofnfallið <span class="math notranslate nohighlight">\(F\)</span> til þess að komast að
+lokasvarinu.</p>
+</div>
+<div class="syn docutils container">
+<p>innsetningu</p>
+<p>Reiknið eftirfarandi heildi með því að notast við innsetningu.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 2x(x^{2}+5)^{8}\; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 3x^{2}\cos\left(x^{3}\right)\; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 5xe^{x^{2}}\; dx\)</span></p></li>
+</ul>
+<p><strong>Lausn:</strong></p>
+<ul>
+<li><p>Ef við veljum <span class="math notranslate nohighlight">\(f(x) = x^{8}\)</span> og <span class="math notranslate nohighlight">\(g(x) = x^{2}+5\)</span> þá
+höfum við að <span class="math notranslate nohighlight">\(g'(x) = 2x\)</span> og því
+<span class="math notranslate nohighlight">\(f(g(x))g'(x) = 2x(x^{2}+5)^{8}\)</span>. Þar sem
+<span class="math notranslate nohighlight">\(F(x) = \frac{1}{9}x^{9}\)</span> er stofnfall fyrir <span class="math notranslate nohighlight">\(f\)</span> þá
+fæst:</p>
+<div class="math notranslate nohighlight">
+\[\int 2x(x^{2}+5)^{8}\; dx = \frac{1}{9}(x^{2}+5)^{9} + k\]</div>
+</li>
+<li><p>Hér getum við valið <span class="math notranslate nohighlight">\(f(x) = \cos(x)\)</span> og
+<span class="math notranslate nohighlight">\(g(x) = x^{3}\)</span>. Þá er <span class="math notranslate nohighlight">\(g'(x) = 3x^{2}\)</span> og því
+<span class="math notranslate nohighlight">\(f(g(x))g'(x) = 3x^{2}\cos\left(x^{3}\right)\)</span>. Höfum nú
+<span class="math notranslate nohighlight">\(F(x) = \sin(x)\)</span> og fáum því:</p>
+<div class="math notranslate nohighlight">
+\[\int 3x^{2}\cos\left(x^{3}\right)\; dx = \sin\left(x^{3}\right) + k\]</div>
+</li>
+<li><p>Í fljóti bragði virðist sem við getum ekki notast við
+innsetningarregluna hér, en við þurfum aðeins að byrja á smá
+umritun. Höfum að
+<span class="math notranslate nohighlight">\(\displaystyle \int 5xe^{x^{2}}\; dx = \frac{5}{2}\int 2xe^{x^{2}}\; dx\)</span>.
+Finnum nú heildið hægra megin jafnaðarmerkisins með því að notast
+við innsetningu. Við veljum <span class="math notranslate nohighlight">\(f(x) = e^{x}\)</span> og
+<span class="math notranslate nohighlight">\(g(x) = x^{2}\)</span>. Þá er <span class="math notranslate nohighlight">\(g'(x) = 2x\)</span> og því fæst
+<span class="math notranslate nohighlight">\(f(g(x))g'(x) = 2xe^{x^{2}}\)</span>. Við höfum nú
+<span class="math notranslate nohighlight">\(F(x) = e^{x}\)</span> og fáum því:</p>
+<div class="math notranslate nohighlight">
+\[\int 5xe^{x^{2}}\; dx = \frac{5}{2}\int 2xe^{x^{2}} \; dx = \frac{5}{2}e^{x^{2}} + k\]</div>
+</li>
+</ul>
+</div>
+<div class="ath docutils container">
+<p>Í síðasta lið dæmisins hér á undan gæti einhverjum þótt eðlilegra að
+skila svarinu
+<span class="math notranslate nohighlight">\(\displaystyle \frac{5}{2}e^{x^{2}}+\frac{5}{2}k\)</span>, en þar sem
+fastinn <span class="math notranslate nohighlight">\(k\)</span> getur verið hvaða rauntala sem er þá gildir slíkt
+hið sama um stærðina <span class="math notranslate nohighlight">\(\frac{5}{2}k\)</span>. Því má allt eins sleppa
+því að margfalda <span class="math notranslate nohighlight">\(\frac{5}{2}\)</span> með heildisfastanum.</p>
+</div>
+<div class="aed docutils container">
+<p>Reiknið eftirfarandi heildi með því að notast við innsetningu.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 10x\left(5x^{2}-3\right)^{7} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 4\sin\left(2x\right) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{2x}{x^{2}+1} \; dx\)</span></p></li>
+</ul>
+</div>
+<div class="regla docutils container">
+<p>Innsetningarregla - Gagnlegri útgáfa</p>
+<p>Gerum ráð fyrir að <span class="math notranslate nohighlight">\(g'\)</span> er afleiða fallsins <span class="math notranslate nohighlight">\(g\)</span> og að
+<span class="math notranslate nohighlight">\(f\)</span> sé fall. Ef við setjum <span class="math notranslate nohighlight">\(u = g(x)\)</span> þá fæst að</p>
+<div class="math notranslate nohighlight">
+\[\int f(g(x))\cdot g'(x) \;dx = \int f(u)\; du\]</div>
+<p>þar sem <span class="math notranslate nohighlight">\(du = g'(x)dx\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Þegar við höfum reiknað upp úr heildinu <span class="math notranslate nohighlight">\(\int f(u) \; du\)</span> þá
+notumst við við jöfnuna <span class="math notranslate nohighlight">\(u = g(x)\)</span> til þess að fá lokasvarið í
+breytunni <span class="math notranslate nohighlight">\(x\)</span>.</p>
+</div>
+<div class="ath docutils container">
+<p>Í reglunni hér að ofan var notast við bókstafinn <span class="math notranslate nohighlight">\(u\)</span> í
+innsetningunni, en að sjálfsögðu má notast við hvaða bókstaf sem er.</p>
+</div>
+<div class="syn docutils container">
+<p>innsetningu Reiknið eftirfarandi heildi með því að byrja á því að
+notast við innsetningarregluna.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{4}{4x-3}\; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x\sqrt{x-1} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x^{3}e^{x^{2}} \; dx\)</span></p></li>
+</ul>
+<p><strong>Lausn:</strong></p>
+<ul>
+<li><p>Setjum <span class="math notranslate nohighlight">\(u = 4x - 3\)</span>. Við höfum þá að <span class="math notranslate nohighlight">\(du = 4x\;dx\)</span> og
+við fáum því</p>
+<div class="math notranslate nohighlight">
+\[\int \frac{4}{4x-3} \; dx = \frac{1}{u} \; du = \ln|u| + k = \ln|4x-3|+k\]</div>
+</li>
+<li><p>Hér veljum við <span class="math notranslate nohighlight">\(u = x - 1\)</span>. Þá fæst <span class="math notranslate nohighlight">\(du = dx\)</span> en auk
+þess höfum við <span class="math notranslate nohighlight">\(x = u + 1\)</span>. Við fáum því</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+&amp;\int x\sqrt{x-1} \; dx = \int (u+1)\sqrt{u} \; du = \int u^{\tfrac{3}{2}} + u^{\tfrac{1}{2}} \; du\\ = &amp;\frac{2}{5}u^{\tfrac{5}{2}}+\frac{2}{3}u^{\tfrac{3}{2}} + k = \frac{2}{5}\left(x-1\right)^{\tfrac{5}{2}}+\frac{2}{3}\left(x-1\right)^{\tfrac{3}{2}} + k
+\end{aligned}\end{split}\]</div>
+</li>
+<li><p>Við setjum <span class="math notranslate nohighlight">\(u = x^{2}\)</span>, fáum þá að <span class="math notranslate nohighlight">\(du = 2x \; dx\)</span> og
+þar með <span class="math notranslate nohighlight">\(\frac{1}{2}du = x\; dx\)</span>. Við fáum því</p>
+<div class="math notranslate nohighlight">
+\[\int x^{3}e^{x^{2}} \; dx = \frac{1}{2}\int u e^{u} \; du\]</div>
+<p>Við leysum nú þetta heildi með því að notast við hlutheildun, fáum</p>
+<div class="math notranslate nohighlight">
+\[\frac{1}{2}\int u e^{u} \; du =  \frac{1}{2}\left(ue^{u} - \int e^{u} \; du\right) = \frac{1}{2}ue^{u}-\frac{1}{2}e^{u} + k\]</div>
+<p>og þar með</p>
+<div class="math notranslate nohighlight">
+\[\int x^{3}e^{x^{2}} \; dx = \frac{1}{2}x^{2}e^{x^{2}}-\frac{1}{2}e^{x^{2}} + k\]</div>
+</li>
+</ul>
+</div>
+<div class="aed docutils container">
+<p>Reiknið eftirfarandi heildi með því að notast við
+innsetningarregluna.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{3}{2-5x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 2x\sqrt{x+2}\; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x^{3}\cos\left(2x^{2}\right)\; dx\)</span></p></li>
+</ul>
+</div>
+<div class="regla docutils container">
+<p>(Upprifjun á hornafallareglum) Um hornaföllin <span class="math notranslate nohighlight">\(\cos\)</span> og
+<span class="math notranslate nohighlight">\(\sin\)</span> gilda eftirfarandi reglur:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \cos^{2}(x)+\sin^{2}(x) = 1\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \cos(2x) = \cos^{2}(x) - \sin^{2}(x)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \sin(2x) = 2\sin(x)\cos(x)\)</span></p></li>
+</ul>
+</div>
+<div class="ath docutils container">
+<p>Hornafallareglurnar hér að ofan geta oft reynst gagnlegar við
+heildun.</p>
+</div>
+<div class="syn docutils container">
+<p>umritun með hornafallareglum Reiknið eftirfarandi heildi.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \cos^{2}(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 4\sin(2x)\cos(2x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \cos^{3}(x) \; dx\)</span></p></li>
+</ul>
+<p><strong>Lausn:</strong></p>
+<ul>
+<li><p>Við höum að</p>
+<div class="math notranslate nohighlight">
+\[\cos(2x) = \cos^{2}(x)-\sin^{2}(x) = \cos^{2}(x) - (1-\cos^{2}(x)) = 2\cos^{2}(x)-1\]</div>
+<p>og þar með</p>
+<div class="math notranslate nohighlight">
+\[\cos^{2}(x) = \frac{1}{2}\cos(2x)+\frac{1}{2}\]</div>
+<p>Við fáum því</p>
+<div class="math notranslate nohighlight">
+\[\int \cos^{2}(x) \; dx = \int \frac{1}{2}\cos(2x)+\frac{1}{2} \; dx = \frac{1}{4}\sin(2x)+\frac{1}{2}x + k\]</div>
+</li>
+<li><p>Setjum <span class="math notranslate nohighlight">\(u = 2x\)</span>. Þá er <span class="math notranslate nohighlight">\(du = 2x \; dx\)</span> og við fáum því</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+&amp;\int 4\sin(2x)\cos(2x) \; dx = \int 2\sin(u)\cos(u) \; du \\= &amp;\int \sin(2u) \; du = -\frac{1}{2}\cos(2u) + k = -\frac{1}{4}\cos(2u) + k
+\end{aligned}\end{split}\]</div>
+</li>
+<li><p>Athugum að við höfum</p>
+<div class="math notranslate nohighlight">
+\[\cos^{3}(x) = \cos(x)\cos^{2}(x) = \cos(x)\left(1-\sin^{2}(x)\right)\]</div>
+<p>Við setjum því <span class="math notranslate nohighlight">\(u = \sin(x)\)</span> svo <span class="math notranslate nohighlight">\(du = \cos(x) \; dx\)</span>
+og því fæst</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+&amp;\int \cos^{3}(x) \; dx = \int \cos(x)\left(1-\sin^{2}(x)\right) \; dx = \int 1 - u^{2} \; du \\= \; &amp;u - \frac{1}{3}u^{3} + k = \sin(x) - \frac{1}{3}\sin^{3}(x) + k
+\end{aligned}\end{split}\]</div>
+</li>
+</ul>
+</div>
+<div class="syn docutils container">
+<p>tvö áhugaverð heildi Reiknið eftirfarandi heildi.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \ln(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int e^{x}\sin(x) \; dx\)</span></p></li>
+</ul>
+<p><strong>Lausn:</strong> Í báðum þessum dæmum notumst við við sniðug ”trikk” sem
+vert er að muna!</p>
+<ul>
+<li><p>Við umritum <span class="math notranslate nohighlight">\(\ln(x) = 1\cdot\ln(x)\)</span> og notumst svo við
+hlutheildun. Veljum <span class="math notranslate nohighlight">\(f(x) = \ln(x)\)</span> og <span class="math notranslate nohighlight">\(g'(x) = 1\)</span>,
+höfum því <span class="math notranslate nohighlight">\(f'(x) = \frac{1}{x}\)</span> og <span class="math notranslate nohighlight">\(g(x) = x\)</span>. Fáum
+því:</p>
+<div class="math notranslate nohighlight">
+\[\int \ln(x) \; dx = x\ln(x) - \int 1 \; dx = x\ln(x) - x + k\]</div>
+</li>
+<li><p>Hér ætlum við að notast við hlutheildun, veljum
+<span class="math notranslate nohighlight">\(f(x) = \sin(x)\)</span> og <span class="math notranslate nohighlight">\(g'(x) = e^{x}\)</span>. Höfum því
+<span class="math notranslate nohighlight">\(f'(x) = \cos(x)\)</span> og <span class="math notranslate nohighlight">\(g(x) = e^{x}\)</span>. Fáum því:</p>
+<div class="math notranslate nohighlight">
+\[\int e^{x}\sin(x) \; dx = e^{x}\sin(x) - \int e^{x}\cos(x) \; dx\]</div>
+<p>Reiknum nú síðara heildið einnig með hlutheildun, veljum
+<span class="math notranslate nohighlight">\(f(x) = \cos(x)\)</span> og <span class="math notranslate nohighlight">\(g'(x) = e^{x}\)</span>. Fáum því
+<span class="math notranslate nohighlight">\(f'(x) = -\sin(x)\)</span> og <span class="math notranslate nohighlight">\(g(x) = e^{x}\)</span> og þar með</p>
+<div class="math notranslate nohighlight">
+\[\int e^{x}\cos(x) \; dx = e^{x}\cos(x) + \int e^{x}\sin(x) \; dx\]</div>
+<p>Ef við tökum saman útreikninga okkar þá höfum við þar með fengið</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}
+\int e^{x}\sin(x) \; dx &amp;= e^{x}\sin(x) - \left(e^{x}\cos(x) + \int e^{x}\sin(x) \; dx\right)\\ &amp;= e^{x}\sin(x)-e^{x}\cos(x)-\int e^{x}\sin(x) \; dx
+\end{aligned}\end{split}\]</div>
+<p>Við sjáum nú að upprunalega heildið okkar kemur fyrir beggja vegna
+jafnaðarmerkisins. Við getum því litið á það sem óþekkta stærð og
+einangrað. Fáum:</p>
+<div class="math notranslate nohighlight">
+\[\int e^{x}\sin(x) \; dx = \frac{e^{x}\sin(x)-e^{x}\cos(x)}{2} + k\]</div>
+</li>
+</ul>
+</div>
+<section id="aefing-1">
+<h2><span class="section-number">1.1. </span>Æfing 1<a class="headerlink" href="#aefing-1" title="Link to this heading"></a></h2>
+<ol class="arabic">
+<li><p>Reiknið eftirfarandi heildi.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 2x^{2}-x+3 \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int -5x^{3}+2x-1 \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 3x^{2}-\sqrt{x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 2x^{\tfrac{1}{3}}+3x^{\tfrac{1}{2}} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 3e^{x}-2^{x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int e^{5x}+3^{2x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \sqrt{x}-\frac{1}{\sqrt{x}} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int e^{-x}+\sqrt[3]{x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{3}{x^{2}+1} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{2}{3x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int -\frac{\pi}{x-e} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 3\cos(3x)-4\sin(2x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{1}{\pi}\cos(2\pi x)+\frac{2}{\pi}\sin(\pi x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{3}{\sqrt{1-x^{2}}} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 1 + \tan^{2}(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{1}{\cos^{2}(x)} \; dx\)</span></p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Reiknið heildið <span class="math notranslate nohighlight">\(\displaystyle \int f(x) \; dx\)</span> og finnið
+síðan stofnfall <span class="math notranslate nohighlight">\(F\)</span> fyrir <span class="math notranslate nohighlight">\(f\)</span> sem uppfyllir skilyrðin
+<span class="math notranslate nohighlight">\(F(-1) = 1\)</span> og <span class="math notranslate nohighlight">\(F(1) = 2\)</span> eða útskýrið af hverju slíkt
+stofnfall er ekki til.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(f(x) = \dfrac{1}{x}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x) = 3x^{2}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x) = \dfrac{2}{x^{3}}\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x) = \cos(\pi x)\)</span></p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Notist við hlutheildun til þess að reikna eftirfarandi heildi.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int xe^{3x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 2x\cos(3x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x\ln(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int xe^{-x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 3x\sin(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x^{3}\ln(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x^{2}\cos(x)\; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x^{2}2^{-x}\; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x\left(\ln(x)\right)^{2} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \sqrt{x}\ln(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x\log_{10}(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{\ln(x)}{x^{2}}\; dx\)</span></p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Notist við innsetningu til þess að reikna eftirfarandi heildi.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 2x\left(x^{2}+1\right)^{4} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 3x^{2}\sqrt{x^{3}+1} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 4x\cos\left(x^{2}\right) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 5x^{2}e^{x^{3}} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x^{3}\left(x^{4}-2\right)^{9}\; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{1}{\pi}\sin\left(\pi x\right)\; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 3x3^{x^{2}} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 3x\sqrt{8-x^{2}} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{3^{\ln(x)}}{x} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x^{5}\sqrt{x^{2}+1} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int (x^2-1)(x^3-3x+2)^{3} \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{\ln(\ln(x))}{x} \; dx\)</span></p></li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Reiknið eftirfarandi heildi.</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \sin^{2}(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int x\cos(2\pi x)\sin(2\pi x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \cos^{2}(\pi x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \cos^{5}(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int 2^{x}\cos(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \sqrt{x}\sin\left(\sqrt{x}\right) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \cos(\ln(x)) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{5^{\ln(x)}}{x^{2}}\; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \arctan(x) \; dx\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(\displaystyle \int \frac{1}{e^{x}+e^{-x}} \; dx\)</span></p></li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="svor-vi-aefingu">
+<h2><span class="section-number">1.2. </span>Svör við æfingu<a class="headerlink" href="#svor-vi-aefingu" title="Link to this heading"></a></h2>
+<ol class="arabic simple">
+<li><ol class="arabic simple">
+<li><p>Fastafall og 0. stigs margliða</p></li>
+<li><p>Veldisfall og 2. stigs margliða</p></li>
+<li><p>Hlutleysufall og 1. stigs margliða</p></li>
+<li><ol class="arabic simple">
+<li><p>stigs margliða</p></li>
+</ol>
+</li>
+<li><p>Veldisfall <span class="math notranslate nohighlight">\(\left(x^{\frac{1}{2}}\right)\)</span></p></li>
+<li><p>Fastafall og margliða sem hefur ekkert stig</p></li>
+<li><p>Rætt fall</p></li>
+<li><ol class="arabic simple" start="3">
+<li><p>stigs margliða</p></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>#.
+#.</p></li>
+<li><p>Svari sleppt.</p></li>
+</ol>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../" class="btn btn-neutral float-left" title="STÆR3HE05 - Heildun, Menntaskólinn á Akureyri" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../kafli02/" class="btn btn-neutral float-right" title="2. Eiginleg heildi" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p></p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+<script>
+    window.addEventListener("load", function () {
+        for (var i in ggbAppletId) {
+            ggbAppletId[i].inject(i);
+        }
+    });
+</script>
+
+
+ 
+
+<style>
+    /* Sidebar header (and topbar for mobile) */
+    .wy-side-nav-search,
+    .wy-nav-top {
+       /* HI: #10099F, VoN: #EB7125, orginal #01447B */
+       background: #C1694F;
+    }
+
+    /* Sidebar */
+    .wy-nav-side {
+      /* orginal #343131, HÍ grár dekkri: #EEEEEE, HÍ svartur: #262626 */
+      background: #262626;
+    }
+</style>
+
+
+</body>
+</html>
